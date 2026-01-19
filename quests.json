@@ -7,6 +7,7 @@
     "membersOnly": false,
     "questPointReward": 2,
     "releaseDate": "2001-01-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
     "requiredSkills": ["Smithing", "Crafting"],
     "rewards": ["Rune Platebody", "Access to Crandor"]
   },
@@ -18,6 +19,7 @@
     "membersOnly": true,
     "questPointReward": 1,
     "releaseDate": "2002-07-25",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/priest_in_peril.png",
     "requiredSkills": ["Prayer"],
     "rewards": ["Access to Morytania"]
   },
@@ -29,7 +31,92 @@
     "membersOnly": true,
     "questPointReward": 3,
     "releaseDate": "2004-12-06",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/monkey_madness.png",
     "requiredSkills": ["Agility", "Prayer", "Combat"],
     "rewards": ["Dragon Scimitar", "Access to Ape Atoll"]
+  },
+  {
+    "id": "QUEST-004",
+    "name": "The Fremennik Trials",
+    "description": "Prove your worth to the Fremennik people.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2003-09-02",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fremennik_trials.png",
+    "requiredSkills": ["Crafting", "Fletching"],
+    "rewards": ["Access to Rellekka"]
+  },
+  {
+    "id": "QUEST-005",
+    "name": "Heroes' Quest",
+    "description": "Work with other adventurers to become a true hero.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2001-02-20",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/heroes_quest.png",
+    "requiredSkills": ["Fishing", "Mining"],
+    "rewards": ["Access to Heroes' Guild"]
+  },
+  {
+    "id": "QUEST-006",
+    "name": "Recipe for Disaster",
+    "description": "Save the Lumbridge chefs from a terrible fate.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 10,
+    "releaseDate": "2006-03-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/recipe_for_disaster.png",
+    "requiredSkills": ["Cooking", "Combat"],
+    "rewards": ["Barrows Gloves"]
+  },
+  {
+    "id": "QUEST-007",
+    "name": "Fight Caves",
+    "description": "Survive waves of monsters and defeat TzTok-Jad.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 0,
+    "releaseDate": "2005-10-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fight_caves.png",
+    "requiredSkills": ["Ranged", "Prayer"],
+    "rewards": ["Fire Cape"]
+  },
+  {
+    "id": "QUEST-008",
+    "name": "Between a Rock...",
+    "description": "Help the dwarves solve a serious mining dispute.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2004-07-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/between_a_rock.png",
+    "requiredSkills": ["Mining", "Smithing"],
+    "rewards": ["Access to Dwarven Mines"]
+  },
+  {
+    "id": "QUEST-009",
+    "name": "God Wars Dungeon",
+    "description": "Battle powerful generals in the ancient God Wars Dungeon.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 0,
+    "releaseDate": "2007-08-28",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/god_wars_dungeon.png",
+    "requiredSkills": ["Combat"],
+    "rewards": ["Godsword Shards"]
+  },
+  {
+    "id": "QUEST-010",
+    "name": "The Grand Tree",
+    "description": "Investigate the illness of the Grand Tree.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 5,
+    "releaseDate": "2003-03-25",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/the_grand_tree.png",
+    "requiredSkills": ["Agility"],
+    "rewards": ["Access to Gnome Stronghold"]
   }
 ]
