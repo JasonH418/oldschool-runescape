@@ -1,5 +1,6 @@
 [
   {
+    "type": "item",
     "id": "ITEM-001",
     "name": "Dragon Scimitar",
     "description": "A powerful scimitar forged from dragon metal, favored by experienced warriors.",
@@ -19,6 +20,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-002",
     "name": "Abyssal Whip",
     "description": "A flexible weapon dropped by Abyssal demons, known for its speed.",
@@ -37,6 +39,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-003",
     "name": "Rune Platebody",
     "description": "A sturdy platebody made of rune, offering excellent defense.",
@@ -56,6 +59,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-004",
     "name": "Barrows Gloves",
     "description": "Powerful gloves awarded after completing a series of tough challenges.",
@@ -75,6 +79,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-005",
     "name": "Dragon Defender",
     "description": "A dragon metal defender, prized for its offensive and defensive bonuses.",
@@ -94,6 +99,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-006",
     "name": "Amulet of Glory",
     "description": "A dragonstone amulet that grants useful teleports and combat bonuses.",
@@ -113,6 +119,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-007",
     "name": "Fire Cape",
     "description": "A legendary cape earned by defeating TzTok-Jad in the Fight Caves.",
@@ -132,6 +139,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-008",
     "name": "Berserker Ring",
     "description": "A Fremennik ring that boosts melee strength, popular for training and bossing.",
@@ -151,6 +159,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-009",
     "name": "Godsword (Saradomin)",
     "description": "A powerful two-handed godsword blessed by Saradomin, known for its special attack.",
@@ -170,6 +179,7 @@
     }
   },
   {
+    "type": "item",
     "id": "ITEM-010",
     "name": "Dragon Pickaxe",
     "description": "A highly sought-after pickaxe that increases mining speed and efficiency.",
