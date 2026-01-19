@@ -1,5 +1,6 @@
 [
   {
+    "type": "quest",
     "id": "QUEST-001",
     "name": "Dragon Slayer I",
     "description": "Prove yourself by slaying the mighty dragon Elvarg.",
@@ -12,6 +13,7 @@
     "rewards": ["Rune Platebody", "Access to Crandor"]
   },
   {
+    "type": "quest",
     "id": "QUEST-002",
     "name": "Priest in Peril",
     "description": "Help a priest uncover a dark secret in the temple of Paterdomus.",
@@ -24,6 +26,7 @@
     "rewards": ["Access to Morytania"]
   },
   {
+    "type": "quest",
     "id": "QUEST-003",
     "name": "Monkey Madness I",
     "description": "Assist King Narnode Shareen and uncover the secrets of Ape Atoll.",
@@ -36,6 +39,7 @@
     "rewards": ["Dragon Scimitar", "Access to Ape Atoll"]
   },
   {
+    "type": "quest",
     "id": "QUEST-004",
     "name": "The Fremennik Trials",
     "description": "Prove your worth to the Fremennik people.",
@@ -48,6 +52,7 @@
     "rewards": ["Access to Rellekka"]
   },
   {
+    "type": "quest",
     "id": "QUEST-005",
     "name": "Heroes' Quest",
     "description": "Work with other adventurers to become a true hero.",
@@ -60,6 +65,7 @@
     "rewards": ["Access to Heroes' Guild"]
   },
   {
+    "type": "quest",
     "id": "QUEST-006",
     "name": "Recipe for Disaster",
     "description": "Save the Lumbridge chefs from a terrible fate.",
@@ -72,6 +78,7 @@
     "rewards": ["Barrows Gloves"]
   },
   {
+    "type": "quest",
     "id": "QUEST-007",
     "name": "Fight Caves",
     "description": "Survive waves of monsters and defeat TzTok-Jad.",
@@ -84,6 +91,7 @@
     "rewards": ["Fire Cape"]
   },
   {
+    "type": "quest",
     "id": "QUEST-008",
     "name": "Between a Rock...",
     "description": "Help the dwarves solve a serious mining dispute.",
@@ -96,6 +104,7 @@
     "rewards": ["Access to Dwarven Mines"]
   },
   {
+    "type": "quest",
     "id": "QUEST-009",
     "name": "God Wars Dungeon",
     "description": "Battle powerful generals in the ancient God Wars Dungeon.",
@@ -108,6 +117,7 @@
     "rewards": ["Godsword Shards"]
   },
   {
+    "type": "quest",
     "id": "QUEST-010",
     "name": "The Grand Tree",
     "description": "Investigate the illness of the Grand Tree.",
