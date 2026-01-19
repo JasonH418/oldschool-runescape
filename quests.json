@@ -7,7 +7,6 @@
     "membersOnly": false,
     "questPointReward": 2,
     "releaseDate": "2001-01-04",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/dragon_slayer.png",
     "requiredSkills": ["Smithing", "Crafting"],
     "rewards": ["Rune Platebody", "Access to Crandor"]
   },
@@ -19,7 +18,6 @@
     "membersOnly": true,
     "questPointReward": 1,
     "releaseDate": "2002-07-25",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/priest_in_peril.png",
     "requiredSkills": ["Prayer"],
     "rewards": ["Access to Morytania"]
   },
@@ -31,7 +29,6 @@
     "membersOnly": true,
     "questPointReward": 3,
     "releaseDate": "2004-12-06",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/monkey_madness.png",
     "requiredSkills": ["Agility", "Prayer", "Combat"],
     "rewards": ["Dragon Scimitar", "Access to Ape Atoll"]
   }
