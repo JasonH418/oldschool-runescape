@@ -14,8 +14,7 @@
       "name": "Monkey Madness I",
       "membersOnly": true,
       "difficulty": "Hard",
-      "questPointReward": 3,
-      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/monkey_madness.png"
+      "questPointReward": 3
     }
   },
   {
@@ -33,8 +32,7 @@
       "name": "Priest in Peril",
       "membersOnly": true,
       "difficulty": "Easy",
-      "questPointReward": 1,
-      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/priest_in_peril.png"
+      "questPointReward": 1
     }
   },
   {
@@ -52,8 +50,7 @@
       "name": "Dragon Slayer I",
       "membersOnly": false,
       "difficulty": "Medium",
-      "questPointReward": 2,
-      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/dragon_slayer.png"
+      "questPointReward": 2
     }
   }
 ]
