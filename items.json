@@ -6,7 +6,7 @@
     "value": 60000,
     "tradeable": true,
     "releaseDate": "2004-07-26",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
     "rarity": "Rare",
     "combatStyles": ["Slash", "Strength"],
     "quest": {
@@ -14,7 +14,8 @@
       "name": "Monkey Madness I",
       "membersOnly": true,
       "difficulty": "Hard",
-      "questPointReward": 3
+      "questPointReward": 3,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
     }
   },
   {
@@ -24,7 +25,7 @@
     "value": 2000000,
     "tradeable": true,
     "releaseDate": "2005-01-26",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/abyssal_whip.png",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
     "rarity": "Epic",
     "combatStyles": ["Slash"],
     "quest": {
@@ -42,7 +43,7 @@
     "value": 39000,
     "tradeable": true,
     "releaseDate": "2001-01-04",
-    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/rune_platebody.png",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
     "rarity": "Common",
     "combatStyles": ["Defensive"],
     "quest": {
@@ -50,7 +51,141 @@
       "name": "Dragon Slayer I",
       "membersOnly": false,
       "difficulty": "Medium",
-      "questPointReward": 2
+      "questPointReward": 2,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-004",
+    "name": "Barrows Gloves",
+    "description": "Powerful gloves awarded after completing a series of tough challenges.",
+    "value": 130000,
+    "tradeable": true,
+    "releaseDate": "2006-01-04",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Epic",
+    "combatStyles": ["Slash", "Strength", "Defensive"],
+    "quest": {
+      "id": "QUEST-004",
+      "name": "Recipe for Disaster",
+      "membersOnly": true,
+      "difficulty": "Hard",
+      "questPointReward": 10,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-005",
+    "name": "Dragon Defender",
+    "description": "A dragon metal defender, prized for its offensive and defensive bonuses.",
+    "value": 1800000,
+    "tradeable": true,
+    "releaseDate": "2007-06-06",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Rare",
+    "combatStyles": ["Slash", "Strength"],
+    "quest": {
+      "id": "QUEST-005",
+      "name": "Warrior's Guild Access",
+      "membersOnly": true,
+      "difficulty": "Medium",
+      "questPointReward": 0,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-006",
+    "name": "Amulet of Glory",
+    "description": "A dragonstone amulet that grants useful teleports and combat bonuses.",
+    "value": 12000,
+    "tradeable": true,
+    "releaseDate": "2002-02-27",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Common",
+    "combatStyles": ["Utility"],
+    "quest": {
+      "id": "QUEST-006",
+      "name": "Heroes' Quest",
+      "membersOnly": true,
+      "difficulty": "Hard",
+      "questPointReward": 1,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-007",
+    "name": "Fire Cape",
+    "description": "A legendary cape earned by defeating TzTok-Jad in the Fight Caves.",
+    "value": 4500000,
+    "tradeable": false,
+    "releaseDate": "2005-10-04",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Epic",
+    "combatStyles": ["Strength", "Defensive"],
+    "quest": {
+      "id": "QUEST-007",
+      "name": "Fight Caves",
+      "membersOnly": true,
+      "difficulty": "Hard",
+      "questPointReward": 0,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-008",
+    "name": "Berserker Ring",
+    "description": "A Fremennik ring that boosts melee strength, popular for training and bossing.",
+    "value": 2500000,
+    "tradeable": true,
+    "releaseDate": "2004-11-02",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Rare",
+    "combatStyles": ["Strength"],
+    "quest": {
+      "id": "QUEST-008",
+      "name": "The Fremennik Trials",
+      "membersOnly": true,
+      "difficulty": "Medium",
+      "questPointReward": 3,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-009",
+    "name": "Godsword (Saradomin)",
+    "description": "A powerful two-handed godsword blessed by Saradomin, known for its special attack.",
+    "value": 48000000,
+    "tradeable": true,
+    "releaseDate": "2007-08-28",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Epic",
+    "combatStyles": ["Slash", "Strength"],
+    "quest": {
+      "id": "QUEST-009",
+      "name": "God Wars Dungeon",
+      "membersOnly": true,
+      "difficulty": "Hard",
+      "questPointReward": 0,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
+    }
+  },
+  {
+    "id": "ITEM-010",
+    "name": "Dragon Pickaxe",
+    "description": "A highly sought-after pickaxe that increases mining speed and efficiency.",
+    "value": 2500000,
+    "tradeable": true,
+    "releaseDate": "2014-09-11",
+    "imageUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Rare",
+    "combatStyles": ["Utility"],
+    "quest": {
+      "id": "QUEST-010",
+      "name": "Between a Rock...",
+      "membersOnly": true,
+      "difficulty": "Medium",
+      "questPointReward": 2,
+      "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png"
     }
   }
 ]
