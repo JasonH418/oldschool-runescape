@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ITEM-001",
+    "name": "Dragon Scimitar",
+    "description": "A powerful scimitar forged from dragon metal, favored by experienced warriors.",
+    "value": 60000,
+    "tradeable": true,
+    "releaseDate": "2004-07-26",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
+    "rarity": "Rare",
+    "combatStyles": ["Slash", "Strength"],
+    "quest": {
+      "id": "QUEST-003",
+      "name": "Monkey Madness I",
+      "membersOnly": true,
+      "difficulty": "Hard",
+      "questPointReward": 3,
+      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/monkey_madness.png"
+    }
+  },
+  {
+    "id": "ITEM-002",
+    "name": "Abyssal Whip",
+    "description": "A flexible weapon dropped by Abyssal demons, known for its speed.",
+    "value": 2000000,
+    "tradeable": true,
+    "releaseDate": "2005-01-26",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/abyssal_whip.png",
+    "rarity": "Epic",
+    "combatStyles": ["Slash"],
+    "quest": {
+      "id": "QUEST-002",
+      "name": "Priest in Peril",
+      "membersOnly": true,
+      "difficulty": "Easy",
+      "questPointReward": 1,
+      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/priest_in_peril.png"
+    }
+  },
+  {
+    "id": "ITEM-003",
+    "name": "Rune Platebody",
+    "description": "A sturdy platebody made of rune, offering excellent defense.",
+    "value": 39000,
+    "tradeable": true,
+    "releaseDate": "2001-01-04",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/rune_platebody.png",
+    "rarity": "Common",
+    "combatStyles": ["Defensive"],
+    "quest": {
+      "id": "QUEST-001",
+      "name": "Dragon Slayer I",
+      "membersOnly": false,
+      "difficulty": "Medium",
+      "questPointReward": 2,
+      "icon": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/dragon_slayer.png"
+    }
+  }
+]

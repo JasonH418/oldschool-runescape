@@ -1,0 +1,38 @@
+[
+  {
+    "id": "QUEST-001",
+    "name": "Dragon Slayer I",
+    "description": "Prove yourself by slaying the mighty dragon Elvarg.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2001-01-04",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/dragon_slayer.png",
+    "requiredSkills": ["Smithing", "Crafting"],
+    "rewards": ["Rune Platebody", "Access to Crandor"]
+  },
+  {
+    "id": "QUEST-002",
+    "name": "Priest in Peril",
+    "description": "Help a priest uncover a dark secret in the temple of Paterdomus.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2002-07-25",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/priest_in_peril.png",
+    "requiredSkills": ["Prayer"],
+    "rewards": ["Access to Morytania"]
+  },
+  {
+    "id": "QUEST-003",
+    "name": "Monkey Madness I",
+    "description": "Assist King Narnode Shareen and uncover the secrets of Ape Atoll.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2004-12-06",
+    "image": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quests/monkey_madness.png",
+    "requiredSkills": ["Agility", "Prayer", "Combat"],
+    "rewards": ["Dragon Scimitar", "Access to Ape Atoll"]
+  }
+]
