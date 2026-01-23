@@ -8,125 +8,2452 @@
     "membersOnly": false,
     "questPointReward": 2,
     "releaseDate": "2001-01-04",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_scimitar.png",
-    "requiredSkills": ["Smithing", "Crafting"],
-    "rewards": ["Rune Platebody", "Access to Crandor"]
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dragon_slayer.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Smithing", "level": 33 },
+        { "skill": "Crafting", "level": 33 }
+      ],
+      "questRequirements": []
+    },
+    "rewards": {
+      "items": ["Rune Platebody", "Access to Crandor"],
+      "experience": []
+    },
+    "questSteps": [
+      "Speak to the Guildmaster in the Champions' Guild.",
+      "Gather the required items.",
+      "Travel to Crandor and slay Elvarg.",
+      "Return to the Guildmaster."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-002",
-    "name": "Priest in Peril",
-    "description": "Help a priest uncover a dark secret in the temple of Paterdomus.",
+    "name": "Cook's Assistant",
+    "description": "Help the cook prepare a cake for the Duke of Lumbridge.",
     "difficulty": "Easy",
-    "membersOnly": true,
+    "membersOnly": false,
     "questPointReward": 1,
-    "releaseDate": "2002-07-25",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/priest_in_peril.png",
-    "requiredSkills": ["Prayer"],
-    "rewards": ["Access to Morytania"]
+    "releaseDate": "2001-01-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cooks_assistant.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Access to the Lumbridge Castle kitchen"],
+      "experience": [{ "skill": "Cooking", "xp": 300 }]
+    },
+    "questSteps": [
+      "Talk to the Cook in Lumbridge Castle.",
+      "Gather an egg, flour, and milk.",
+      "Return to the Cook to finish the quest."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-003",
-    "name": "Monkey Madness I",
-    "description": "Assist King Narnode Shareen and uncover the secrets of Ape Atoll.",
-    "difficulty": "Hard",
-    "membersOnly": true,
+    "name": "Demon Slayer",
+    "description": "Defeat the demon Delrith threatening Varrock.",
+    "difficulty": "Easy",
+    "membersOnly": false,
     "questPointReward": 3,
-    "releaseDate": "2004-12-06",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/monkey_madness.png",
-    "requiredSkills": ["Agility", "Prayer", "Combat"],
-    "rewards": ["Dragon Scimitar", "Access to Ape Atoll"]
+    "releaseDate": "2001-01-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/demon_slayer.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "questRequirements": ["Cook's Assistant"]
+    },
+    "rewards": {
+      "items": ["Silverlight"],
+      "experience": []
+    },
+    "questSteps": [
+      "Speak to Gypsy Aris in Varrock.",
+      "Retrieve Silverlight.",
+      "Perform the ritual and defeat Delrith."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-004",
-    "name": "The Fremennik Trials",
-    "description": "Prove your worth to the Fremennik people.",
-    "difficulty": "Medium",
-    "membersOnly": true,
-    "questPointReward": 3,
-    "releaseDate": "2003-09-02",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fremennik_trials.png",
-    "requiredSkills": ["Crafting", "Fletching"],
-    "rewards": ["Access to Rellekka"]
+    "name": "Romeo & Juliet",
+    "description": "Help Romeo reunite with Juliet through a series of messages.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 5,
+    "releaseDate": "2001-02-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/romeo_juliet.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["5 Quest Points"],
+      "experience": []
+    },
+    "questSteps": [
+      "Talk to Romeo in Varrock Square.",
+      "Deliver messages between Romeo and Juliet.",
+      "Report back to Romeo to complete the quest."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-005",
-    "name": "Heroes' Quest",
-    "description": "Work with other adventurers to become a true hero.",
-    "difficulty": "Hard",
-    "membersOnly": true,
+    "name": "Sheep Shearer",
+    "description": "Help Fred the Farmer by collecting wool.",
+    "difficulty": "Easy",
+    "membersOnly": false,
     "questPointReward": 1,
-    "releaseDate": "2001-02-20",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/heroes_quest.png",
-    "requiredSkills": ["Fishing", "Mining"],
-    "rewards": ["Access to Heroes' Guild"]
+    "releaseDate": "2001-02-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/sheep_shearer.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Coins"],
+      "experience": [{ "skill": "Crafting", "xp": 150 }]
+    },
+    "questSteps": [
+      "Speak to Fred the Farmer near Lumbridge.",
+      "Collect wool and spin it into balls of wool.",
+      "Return the balls of wool to Fred."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-006",
-    "name": "Recipe for Disaster",
-    "description": "Save the Lumbridge chefs from a terrible fate.",
-    "difficulty": "Hard",
-    "membersOnly": true,
-    "questPointReward": 10,
-    "releaseDate": "2006-03-15",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/recipe_for_disaster.png",
-    "requiredSkills": ["Cooking", "Combat"],
-    "rewards": ["Barrows Gloves"]
+    "name": "Goblin Diplomacy",
+    "description": "Resolve a goblin fashion crisis by finding the right armor colors.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 5,
+    "releaseDate": "2001-02-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/goblin_diplomacy.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Gold bar"],
+      "experience": []
+    },
+    "questSteps": [
+      "Talk to General Wartface and General Bentnoze.",
+      "Acquire colored goblin mail.",
+      "Return with the correct color combination."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-007",
-    "name": "Fight Caves",
-    "description": "Survive waves of monsters and defeat TzTok-Jad.",
-    "difficulty": "Hard",
-    "membersOnly": true,
-    "questPointReward": 0,
-    "releaseDate": "2005-10-04",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fight_caves.png",
-    "requiredSkills": ["Ranged", "Prayer"],
-    "rewards": ["Fire Cape"]
+    "name": "Ernest the Chicken",
+    "description": "Help Veronica find and restore Ernest, who has been turned into a chicken.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 4,
+    "releaseDate": "2001-02-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ernest_chicken.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["300 Coins"],
+      "experience": []
+    },
+    "questSteps": [
+      "Talk to Veronica outside Draynor Manor.",
+      "Investigate the manor and find clues.",
+      "Restore Ernest to human form."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-008",
-    "name": "Between a Rock...",
-    "description": "Help the dwarves solve a serious mining dispute.",
+    "name": "Vampyre Shadows",
+    "description": "Uncover a hidden vampyre plot and secure safe passage through the region.",
     "difficulty": "Medium",
     "membersOnly": true,
     "questPointReward": 2,
-    "releaseDate": "2004-07-15",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/between_a_rock.png",
-    "requiredSkills": ["Mining", "Smithing"],
-    "rewards": ["Access to Dwarven Mines"]
+    "releaseDate": "2002-07-25",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/vampyre_shadows.png",
+    "length": "Long",
+    "series": "Morytania Arc",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Prayer", "level": 25 }],
+      "questRequirements": []
+    },
+    "rewards": {
+      "items": ["Access to the eastern swamp route"],
+      "experience": [{ "skill": "Prayer", "xp": 1200 }]
+    },
+    "questSteps": [
+      "Speak to a suspicious monk near the temple.",
+      "Explore the crypt and retrieve an ancient symbol.",
+      "Confront the mastermind and secure passage."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-009",
-    "name": "God Wars Dungeon",
-    "description": "Battle powerful generals in the ancient God Wars Dungeon.",
-    "difficulty": "Hard",
+    "name": "Forest of Trials",
+    "description": "Prove your worth by surviving the trials hidden deep in the forest.",
+    "difficulty": "Medium",
     "membersOnly": true,
-    "questPointReward": 0,
-    "releaseDate": "2007-08-28",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/god_wars_dungeon.png",
-    "requiredSkills": ["Combat"],
-    "rewards": ["Godsword Shards"]
+    "questPointReward": 2,
+    "releaseDate": "2003-05-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/forest_trials.png",
+    "length": "Medium",
+    "series": "Ranger Path",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Ranger's Token"],
+      "experience": [{ "skill": "Agility", "xp": 2500 }]
+    },
+    "questSteps": [
+      "Enter the forest trial grounds.",
+      "Complete three agility challenges.",
+      "Return to the ranger captain."
+    ]
   },
   {
     "type": "quest",
     "id": "QUEST-010",
-    "name": "The Grand Tree",
-    "description": "Investigate the illness of the Grand Tree.",
+    "name": "Cavern Echoes",
+    "description": "Investigate strange echoes coming from a newly discovered cavern.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-01-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cavern_echoes.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Mining Supplies"],
+      "experience": [{ "skill": "Mining", "xp": 800 }]
+    },
+    "questSteps": [
+      "Talk to the miner outside the cavern.",
+      "Investigate the echoing chamber.",
+      "Report what you found."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-011",
+    "name": "The Broken Sigil",
+    "description": "Recover shards of a broken sigil scattered across ancient ruins.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2004-08-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/broken_sigil.png",
+    "length": "Long",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Thieving", "level": 45 },
+        { "skill": "Agility", "level": 40 }
+      ]
+    },
+    "rewards": {
+      "items": ["Sigil of Passage"],
+      "experience": [{ "skill": "Thieving", "xp": 5000 }]
+    },
+    "questSteps": [
+      "Find the first sigil shard in the ruins.",
+      "Recover the second shard from a guarded vault.",
+      "Reforge the sigil at an ancient altar."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-012",
+    "name": "Ashes of the Mountain",
+    "description": "Help a village survive after volcanic ash ruins their crops.",
     "difficulty": "Medium",
     "membersOnly": true,
-    "questPointReward": 5,
-    "releaseDate": "2003-03-25",
-    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/the_grand_tree.png",
-    "requiredSkills": ["Agility"],
-    "rewards": ["Access to Gnome Stronghold"]
+    "questPointReward": 2,
+    "releaseDate": "2005-03-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ashes_mountain.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["Herbal Remedies"],
+      "experience": [{ "skill": "Herblore", "xp": 2500 }]
+    },
+    "questSteps": [
+      "Speak to the village healer.",
+      "Collect ash samples and rare herbs.",
+      "Deliver the remedies to the villagers."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-013",
+    "name": "The Clockwork Plot",
+    "description": "Investigate a clockwork device sabotaging the city's water system.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2005-07-22",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/clockwork_plot.png",
+    "length": "Long",
+    "series": "Gadgeteer Tales",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Crafting", "level": 50 }]
+    },
+    "rewards": {
+      "items": ["Clockwork Key"],
+      "experience": [{ "skill": "Crafting", "xp": 4000 }]
+    },
+    "questSteps": [
+      "Inspect the waterworks for damage.",
+      "Track the clockwork trail to a workshop.",
+      "Disable the device and confront the culprit."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-014",
+    "name": "Sands of the South",
+    "description": "Navigate the desert and recover a lost caravan's ledger.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2006-02-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/sands_south.png",
+    "length": "Medium",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Caravan Pass"],
+      "experience": [{ "skill": "Agility", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Speak to the caravan master.",
+      "Follow tracks through the dunes.",
+      "Recover the ledger and return safely."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-015",
+    "name": "Harbor Troubles",
+    "description": "Solve smuggling issues at the busy harbor.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2006-06-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/harbor_troubles.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Harbor Access Badge"],
+      "experience": [{ "skill": "Fishing", "xp": 900 }]
+    },
+    "questSteps": [
+      "Talk to the harbor officer.",
+      "Inspect suspicious crates.",
+      "Report the smugglers' route."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-016",
+    "name": "The Frozen Path",
+    "description": "Cross a frozen pass to deliver an urgent message to an outpost.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2007-01-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/frozen_path.png",
+    "length": "Medium",
+    "series": "Northern Winds",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Firemaking", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Warm Cloak"],
+      "experience": [{ "skill": "Firemaking", "xp": 1500 }]
+    },
+    "questSteps": [
+      "Prepare supplies for the journey.",
+      "Cross the frozen pass safely.",
+      "Deliver the message to the outpost commander."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-017",
+    "name": "Temple Repairs",
+    "description": "Help restore a crumbling temple threatened by collapse.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2007-04-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/temple_repairs.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Construction", "level": 20 }]
+    },
+    "rewards": {
+      "items": ["Temple Blessing"],
+      "experience": [{ "skill": "Construction", "xp": 1000 }]
+    },
+    "questSteps": [
+      "Talk to the head priest.",
+      "Collect stone and timber supplies.",
+      "Reinforce the temple foundation."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-018",
+    "name": "Bandit Camp Raid",
+    "description": "Stop bandits by raiding their hidden camp.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2007-08-28",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/bandit_raid.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Attack", "level": 50 }],
+      "questRequirements": ["Harbor Troubles"]
+    },
+    "rewards": {
+      "items": ["Bandit Seal"],
+      "experience": [{ "skill": "Attack", "xp": 5000 }]
+    },
+    "questSteps": [
+      "Meet the scout near the canyon.",
+      "Infiltrate the bandit camp.",
+      "Defeat the bandit leader and retrieve the seal."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-019",
+    "name": "The Haunted Library",
+    "description": "Uncover why an old library is haunted and restore peace.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2008-02-03",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/haunted_library.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "rewards": {
+      "items": ["Ancient Tome"],
+      "experience": [{ "skill": "Magic", "xp": 2200 }]
+    },
+    "questSteps": [
+      "Speak to the librarian outside the sealed entrance.",
+      "Find the cursed manuscript.",
+      "Break the curse and return the tome."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-020",
+    "name": "Gnome Glider Mishap",
+    "description": "Help the gnomes repair a glider system after a malfunction.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2008-06-19",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/gnome_glider.png",
+    "length": "Short",
+    "series": "Gnome Tech",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 25 }]
+    },
+    "rewards": {
+      "items": ["Glider Access"],
+      "experience": [{ "skill": "Agility", "xp": 1200 }]
+    },
+    "questSteps": [
+      "Talk to the glider engineer.",
+      "Collect replacement parts.",
+      "Test the glider route and report success."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-021",
+    "name": "Cursed Waters",
+    "description": "Cleanse a lake corrupted by dark magic.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2009-01-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cursed_waters.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Prayer", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Blessed Vial"],
+      "experience": [{ "skill": "Prayer", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Speak to the druid elder.",
+      "Gather cleansing ingredients.",
+      "Purify the lake at midnight."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-022",
+    "name": "Market Mystery",
+    "description": "Investigate strange disappearances at the bustling market.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2009-05-08",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/market_mystery.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Detective Notes"],
+      "experience": [{ "skill": "Thieving", "xp": 600 }]
+    },
+    "questSteps": [
+      "Talk to the market guard.",
+      "Follow clues around the stalls.",
+      "Catch the pickpocket ring leader."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-023",
+    "name": "Iron Resolve",
+    "description": "Aid a blacksmith in forging a ceremonial blade.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2010-02-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/iron_resolve.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Smithing", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Ceremonial Blade"],
+      "experience": [{ "skill": "Smithing", "xp": 2500 }]
+    },
+    "questSteps": [
+      "Talk to the master blacksmith.",
+      "Collect rare ore.",
+      "Forge the blade and present it at the ceremony."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-024",
+    "name": "The Cat's Favor",
+    "description": "Help a citizen rescue and care for a lost kitten.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2010-09-03",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/cats_favor.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Pet Kitten"],
+      "experience": []
+    },
+    "questSteps": [
+      "Talk to the worried citizen.",
+      "Find the lost kitten.",
+      "Bring it home and ensure it is fed."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-025",
+    "name": "Runes and Ruins",
+    "description": "Investigate a ruin filled with unstable runic energy.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2011-03-27",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/runes_ruins.png",
+    "length": "Long",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Magic", "level": 55 }],
+      "questRequirements": ["The Haunted Library"]
+    },
+    "rewards": {
+      "items": ["Runic Stabilizer"],
+      "experience": [{ "skill": "Magic", "xp": 6000 }]
+    },
+    "questSteps": [
+      "Enter the ruin with protective gear.",
+      "Stabilize three runic nodes.",
+      "Defeat the guardian and secure the artifact."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-026",
+    "name": "Fisherman's Folly",
+    "description": "Help a fisherman solve a problem with vanishing bait.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2011-11-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fishermans_folly.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Fishing Bait Bundle"],
+      "experience": [{ "skill": "Fishing", "xp": 500 }]
+    },
+    "questSteps": [
+      "Talk to the fisherman at the pier.",
+      "Investigate the shoreline for clues.",
+      "Stop the bait thief and report back."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-027",
+    "name": "The Lost Caravan",
+    "description": "Track down a missing caravan and recover its cargo.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2012-04-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/lost_caravan.png",
+    "length": "Medium",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Caravan Token"],
+      "experience": [{ "skill": "Agility", "xp": 1600 }]
+    },
+    "questSteps": [
+      "Speak to the caravan master in the desert town.",
+      "Follow tracks to the canyon.",
+      "Recover the cargo and return it safely."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-028",
+    "name": "Guardian of the Grove",
+    "description": "Protect an ancient grove from corruption spreading through the soil.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2012-09-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/guardian_grove.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Farming", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Grove Charm"],
+      "experience": [{ "skill": "Farming", "xp": 3000 }]
+    },
+    "questSteps": [
+      "Talk to the grove keeper.",
+      "Collect purified water and rare seeds.",
+      "Cleanse three corrupted roots and defeat the blight."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-029",
+    "name": "Battle at Blackridge",
+    "description": "Join defenders in holding Blackridge against invading forces.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2013-01-21",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/blackridge_battle.png",
+    "length": "Very Long",
+    "series": "Warfront",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Attack", "level": 60 },
+        { "skill": "Defence", "level": 60 }
+      ],
+      "questRequirements": ["Bandit Camp Raid"]
+    },
+    "rewards": {
+      "items": ["Blackridge Medal"],
+      "experience": [
+        { "skill": "Attack", "xp": 7000 },
+        { "skill": "Defence", "xp": 7000 }
+      ]
+    },
+    "questSteps": [
+      "Report to the commander at Blackridge.",
+      "Defend two strategic points.",
+      "Defeat the invading warlord and secure the ridge."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-030",
+    "name": "A Quiet Night",
+    "description": "Help a village deal with strange noises and restless spirits.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2013-06-30",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quiet_night.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Spirit Lantern"],
+      "experience": [{ "skill": "Prayer", "xp": 600 }]
+    },
+    "questSteps": [
+      "Speak to the village elder at dusk.",
+      "Investigate the graveyard.",
+      "Calm the spirits and report back."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-031",
+    "name": "Merchant's Request",
+    "description": "Assist a merchant with acquiring rare goods for a special client.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2014-02-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/merchant_request.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Merchant Discount"],
+      "experience": [{ "skill": "Crafting", "xp": 700 }]
+    },
+    "questSteps": [
+      "Meet the merchant in the trade district.",
+      "Gather two rare components.",
+      "Deliver the goods and collect your reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-032",
+    "name": "The Hidden Workshop",
+    "description": "Discover a hidden workshop and stop a dangerous invention.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2014-09-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/hidden_workshop.png",
+    "length": "Long",
+    "series": "Gadgeteer Tales",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Crafting", "level": 55 }],
+      "questRequirements": ["The Clockwork Plot"]
+    },
+    "rewards": {
+      "items": ["Workshop Blueprints"],
+      "experience": [{ "skill": "Crafting", "xp": 5500 }]
+    },
+    "questSteps": [
+      "Find the hidden entrance.",
+      "Disable two prototype machines.",
+      "Confront the inventor and secure the blueprints."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-033",
+    "name": "Hunt for the Relic",
+    "description": "Track down a relic stolen from a museum.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2015-03-02",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/hunt_relic.png",
+    "length": "Medium",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Thieving", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Museum Token"],
+      "experience": [{ "skill": "Thieving", "xp": 2300 }]
+    },
+    "questSteps": [
+      "Speak to the curator.",
+      "Follow the thief's trail.",
+      "Recover the relic and return it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-034",
+    "name": "Storm on the Coast",
+    "description": "Help sailors survive a storm and secure stranded cargo.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2015-10-16",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/storm_coast.png",
+    "length": "Long",
+    "series": null,
+    "rewards": {
+      "items": ["Sailor's Knot Charm"],
+      "experience": [{ "skill": "Fishing", "xp": 2200 }]
+    },
+    "questSteps": [
+      "Talk to the harbormaster.",
+      "Secure the cargo during the storm.",
+      "Rescue stranded sailors and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-035",
+    "name": "The Ancient Gate",
+    "description": "Open an ancient gate sealed by puzzles and guardians.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2016-04-07",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ancient_gate.png",
+    "length": "Very Long",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Magic", "level": 60 },
+        { "skill": "Agility", "level": 50 }
+      ],
+      "questRequirements": ["Runes and Ruins"]
+    },
+    "rewards": {
+      "items": ["Gate Sigil"],
+      "experience": [{ "skill": "Magic", "xp": 8000 }]
+    },
+    "questSteps": [
+      "Find the gate in the ruins.",
+      "Solve three puzzles to unlock the seals.",
+      "Defeat the guardian and open the gate."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-036",
+    "name": "Village of Thieves",
+    "description": "Expose a secret guild operating beneath a quiet village.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2017-01-19",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/village_thieves.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Thieving", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Guild Invitation"],
+      "experience": [{ "skill": "Thieving", "xp": 3200 }]
+    },
+    "questSteps": [
+      "Talk to a nervous villager.",
+      "Discover the hidden entrance.",
+      "Confront the guild and secure the invitation."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-037",
+    "name": "Furnace Frenzy",
+    "description": "Help stabilize an overheated furnace threatening the local smithy.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2017-08-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/furnace_frenzy.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Smithing Supplies"],
+      "experience": [{ "skill": "Smithing", "xp": 900 }]
+    },
+    "questSteps": [
+      "Speak to the blacksmith.",
+      "Cool the furnace with special materials.",
+      "Repair the bellows and report success."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-038",
+    "name": "The Hunter's Oath",
+    "description": "Take an oath and prove yourself as a hunter of dangerous beasts.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2018-03-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/hunters_oath.png",
+    "length": "Long",
+    "series": "Ranger Path",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Ranged", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Hunter's Emblem"],
+      "experience": [{ "skill": "Ranged", "xp": 4000 }]
+    },
+    "questSteps": [
+      "Speak to the huntmaster.",
+      "Track a beast through the wilderness.",
+      "Defeat the target and claim the emblem."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-039",
+    "name": "Recipe for Disaster",
+    "description": "Save the Lumbridge chefs from a terrible fate and defeat the Culinaromancer.",
+    "difficulty": "Grandmaster",
+    "membersOnly": true,
+    "questPointReward": 10,
+    "releaseDate": "2006-03-15",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/recipe_for_disaster.png",
+    "length": "Very Long",
+    "series": "culinaromancer",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Cooking", "level": 70 },
+        { "skill": "Crafting", "level": 40 }
+      ],
+      "questRequirements": [
+        "Cook's Assistant",
+        "Fisherman's Folly",
+        "The Cat's Favor"
+      ]
+    },
+    "rewards": {
+      "items": ["Barrows Gloves"],
+      "experience": [{ "skill": "Cooking", "xp": 20000 }]
+    },
+    "questSteps": [
+      "Start the quest by speaking to the Cook in Lumbridge Castle.",
+      "Complete multiple sub-quests to free the Council members.",
+      "Defeat the Culinaromancer."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-040",
+    "name": "The Final Relay",
+    "description": "Deliver a final message across hostile territory before time runs out.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2019-12-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/final_relay.png",
+    "length": "Long",
+    "series": "Warfront",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 55 }],
+      "questRequirements": ["Battle at Blackridge"]
+    },
+    "rewards": {
+      "items": ["Warfront Banner"],
+      "experience": [{ "skill": "Agility", "xp": 6500 }]
+    },
+    "questSteps": [
+      "Report to the messenger captain.",
+      "Cross two hostile checkpoints without being caught.",
+      "Deliver the message to the allied commander and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-041",
+    "name": "Desert Courier",
+    "description": "Deliver a sealed package across the desert without losing it to bandits.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-03-08",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desert_courier.png",
+    "length": "Short",
+    "series": "Desert Journeys",
+    "rewards": {
+      "items": ["Desert Waterskin"],
+      "experience": [{ "skill": "Agility", "xp": 650 }]
+    },
+    "questSteps": [
+      "Speak to the courier master at the desert outpost.",
+      "Escort the package through the dunes.",
+      "Deliver the package to the recipient and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-042",
+    "name": "The River Pact",
+    "description": "Negotiate peace between two river towns disputing fishing rights.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2003-09-17",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/river_pact.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Fishing", "level": 20 }]
+    },
+    "rewards": {
+      "items": ["River Permit"],
+      "experience": [{ "skill": "Fishing", "xp": 1200 }]
+    },
+    "questSteps": [
+      "Speak to both town leaders.",
+      "Collect evidence of illegal netting.",
+      "Present a fair agreement to finalize the pact."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-043",
+    "name": "Crypt of Whispers",
+    "description": "Explore a sealed crypt where whispers lead travelers astray.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2006-10-21",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/crypt_whispers.png",
+    "length": "Long",
+    "series": "Morytania Arc",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Prayer", "level": 40 },
+        { "skill": "Agility", "level": 35 }
+      ]
+    },
+    "rewards": {
+      "items": ["Whisper Charm"],
+      "experience": [{ "skill": "Prayer", "xp": 3500 }]
+    },
+    "questSteps": [
+      "Obtain permission to enter the crypt.",
+      "Navigate the whispering corridors.",
+      "Defeat the crypt warden and retrieve the charm."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-044",
+    "name": "The Green Thumb",
+    "description": "Help a gardener revive a dying orchard using rare compost.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2005-04-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/green_thumb.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Orchard Basket"],
+      "experience": [{ "skill": "Farming", "xp": 800 }]
+    },
+    "questSteps": [
+      "Speak to the gardener in the orchard.",
+      "Collect compost ingredients.",
+      "Revive the trees and report success."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-045",
+    "name": "Gnome Signal",
+    "description": "Restore a broken signal tower used by gnome scouts.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2008-08-28",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/gnome_signal.png",
+    "length": "Medium",
+    "series": "Gnome Tech",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Agility", "level": 30 },
+        { "skill": "Crafting", "level": 30 }
+      ]
+    },
+    "rewards": {
+      "items": ["Scout Signal Badge"],
+      "experience": [{ "skill": "Crafting", "xp": 1600 }]
+    },
+    "questSteps": [
+      "Meet the gnome scout at the tower.",
+      "Repair the signal mechanism.",
+      "Test the beacon and report to the scout captain."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-046",
+    "name": "A Brewer's Trouble",
+    "description": "Recover missing hops shipments and calm the angry brewers.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2002-11-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/brewers_trouble.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Keg Token"],
+      "experience": [{ "skill": "Cooking", "xp": 600 }]
+    },
+    "questSteps": [
+      "Talk to the head brewer.",
+      "Track the missing shipment route.",
+      "Recover the hops and return to the brewery."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-047",
+    "name": "The Broken Bridge",
+    "description": "Repair a vital bridge to reopen a trade route.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2007-05-23",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/broken_bridge.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Construction", "level": 25 }]
+    },
+    "rewards": {
+      "items": ["Bridge Pass"],
+      "experience": [{ "skill": "Construction", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Speak to the trade overseer.",
+      "Gather timber, nails, and rope.",
+      "Repair the bridge and reopen the route."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-048",
+    "name": "The Forgotten Recipe",
+    "description": "Find an ancient cookbook and recreate a legendary dish.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2009-02-20",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/forgotten_recipe.png",
+    "length": "Long",
+    "series": "culinaromancer",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Cooking", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Chef's Seal"],
+      "experience": [{ "skill": "Cooking", "xp": 3200 }]
+    },
+    "questSteps": [
+      "Speak to the wandering chef.",
+      "Locate the cookbook in the old pantry.",
+      "Cook the legendary dish and present it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-049",
+    "name": "Night Watch",
+    "description": "Assist the city watch during a string of nighttime robberies.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2010-07-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/night_watch.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["Watchman Cloak"],
+      "experience": [{ "skill": "Thieving", "xp": 500 }]
+    },
+    "questSteps": [
+      "Report to the watch captain after sunset.",
+      "Patrol the market district.",
+      "Catch the thief and deliver them to the guardhouse."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-050",
+    "name": "The Sunken Cache",
+    "description": "Recover a merchant's cache lost in a shipwreck offshore.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2011-06-06",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/sunken_cache.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Fishing", "level": 50 }]
+    },
+    "rewards": {
+      "items": ["Salvager's Hook"],
+      "experience": [{ "skill": "Fishing", "xp": 5200 }]
+    },
+    "questSteps": [
+      "Speak to the dockmaster about the wreck.",
+      "Dive to the wreck site and locate the cache.",
+      "Return the cache and keep a reward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-051",
+    "name": "A Ranger's Request",
+    "description": "Support rangers by crafting specialized arrows for patrols.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2004-10-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/rangers_request.png",
+    "length": "Short",
+    "series": "Ranger Path",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Fletching", "level": 25 }]
+    },
+    "rewards": {
+      "items": ["Ranger Supplies"],
+      "experience": [{ "skill": "Fletching", "xp": 1000 }]
+    },
+    "questSteps": [
+      "Meet the ranger lieutenant.",
+      "Craft a batch of patrol arrows.",
+      "Deliver the arrows and receive supplies."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-052",
+    "name": "The Whispering Woods",
+    "description": "Find the source of strange voices in the woods at night.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2005-12-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/whispering_woods.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "rewards": {
+      "items": ["Woodland Sigil"],
+      "experience": [{ "skill": "Magic", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Speak to the herbalist at the forest edge.",
+      "Follow the voices to a hidden glade.",
+      "Dispel the illusion and claim the sigil."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-053",
+    "name": "Smith's Challenge",
+    "description": "Prove your skill by forging a ceremonial helm for a local lord.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2006-04-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/smiths_challenge.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Smithing", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Ceremonial Helm"],
+      "experience": [{ "skill": "Smithing", "xp": 2400 }]
+    },
+    "questSteps": [
+      "Speak to the lord's steward.",
+      "Acquire refined ore and a mold.",
+      "Forge the helm and present it to the steward."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-054",
+    "name": "The Missing Map",
+    "description": "Locate a stolen map leading to a forgotten treasury.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2007-02-02",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/missing_map.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Map Fragment"],
+      "experience": []
+    },
+    "questSteps": [
+      "Talk to the explorer in the tavern.",
+      "Search the alleyways for the thief.",
+      "Recover the map fragment and return it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-055",
+    "name": "Relic of the Deep",
+    "description": "Retrieve a relic from caves beneath the coastline.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2008-12-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/relic_deep.png",
+    "length": "Very Long",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Agility", "level": 45 },
+        { "skill": "Magic", "level": 45 }
+      ],
+      "questRequirements": ["Hunt for the Relic"]
+    },
+    "rewards": {
+      "items": ["Deep Relic Core"],
+      "experience": [{ "skill": "Magic", "xp": 5200 }]
+    },
+    "questSteps": [
+      "Speak to the relic researcher at the coast.",
+      "Navigate the flooded tunnels.",
+      "Defeat the cavern guardian and take the core."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-056",
+    "name": "The Orchard Thief",
+    "description": "Catch the thief stealing fruit from the town orchard.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2009-06-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/orchard_thief.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Fruit Basket"],
+      "experience": [{ "skill": "Thieving", "xp": 400 }]
+    },
+    "questSteps": [
+      "Talk to the orchard keeper.",
+      "Set a trap near the trees.",
+      "Catch the thief and return the stolen fruit."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-057",
+    "name": "Northern Supplies",
+    "description": "Deliver supplies to a northern camp before a blizzard arrives.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2010-01-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/northern_supplies.png",
+    "length": "Long",
+    "series": "Northern Winds",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Firemaking", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Warm Boots"],
+      "experience": [{ "skill": "Firemaking", "xp": 2100 }]
+    },
+    "questSteps": [
+      "Collect supply crates from the quartermaster.",
+      "Cross the icy trail safely.",
+      "Deliver supplies and return with confirmation."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-058",
+    "name": "The Shattered Lens",
+    "description": "Recover pieces of a magical lens used to view hidden runes.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2011-10-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/shattered_lens.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Magic", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Runic Lens"],
+      "experience": [{ "skill": "Magic", "xp": 2600 }]
+    },
+    "questSteps": [
+      "Speak to the archivist about the missing lens.",
+      "Recover three lens shards from different ruins.",
+      "Reassemble the lens and test it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-059",
+    "name": "Trial of the Arena",
+    "description": "Enter the arena and prove yourself against three champions.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2012-02-29",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/trial_arena.png",
+    "length": "Long",
+    "series": "Warfront",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Attack", "level": 55 }]
+    },
+    "rewards": {
+      "items": ["Arena Sigil"],
+      "experience": [{ "skill": "Attack", "xp": 6000 }]
+    },
+    "questSteps": [
+      "Register with the arena master.",
+      "Defeat three ranked champions.",
+      "Claim the sigil and report completion."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-060",
+    "name": "A Simple Favor",
+    "description": "Run a chain of errands that turns out to be far less simple than it sounds.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2012-09-26",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/simple_favor.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["Helper's Badge"],
+      "experience": []
+    },
+    "questSteps": [
+      "Speak to the anxious villager.",
+      "Complete the requested errands.",
+      "Return for your badge."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-061",
+    "name": "The Smelter's Secret",
+    "description": "Investigate illegal smelting operations beneath the city.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2013-03-03",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/smelters_secret.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Mining", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Smelter's Permit"],
+      "experience": [{ "skill": "Mining", "xp": 2200 }]
+    },
+    "questSteps": [
+      "Talk to the inspector at the gate.",
+      "Find the hidden smelter entrance.",
+      "Shut down the operation and report back."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-062",
+    "name": "The Curious Compass",
+    "description": "Follow a mysterious compass that points to shifting locations.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2013-11-20",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/curious_compass.png",
+    "length": "Medium",
+    "series": "Relic Saga",
+    "rewards": {
+      "items": ["Traveler's Compass"],
+      "experience": [{ "skill": "Agility", "xp": 1400 }]
+    },
+    "questSteps": [
+      "Acquire the compass from the collector.",
+      "Follow the compass to three locations.",
+      "Recover the hidden token and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-063",
+    "name": "Culinary Clash",
+    "description": "Compete in a cook-off to settle a dispute between rival chefs.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2014-05-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/culinary_clash.png",
+    "length": "Medium",
+    "series": "culinaromancer",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Cooking", "level": 50 }]
+    },
+    "rewards": {
+      "items": ["Chef's Hat (Trimmed)"],
+      "experience": [{ "skill": "Cooking", "xp": 4000 }]
+    },
+    "questSteps": [
+      "Register for the cook-off.",
+      "Gather special ingredients.",
+      "Prepare the dish and win the clash."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-064",
+    "name": "The Runecrafter's Test",
+    "description": "Assist a runecrafter in stabilizing a volatile altar.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2014-12-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/runecrafters_test.png",
+    "length": "Long",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Runecraft", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Stabilized Rune"],
+      "experience": [{ "skill": "Runecraft", "xp": 4500 }]
+    },
+    "questSteps": [
+      "Meet the runecrafter at the altar site.",
+      "Place stabilizing stones around the altar.",
+      "Survive the surge and seal the altar."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-065",
+    "name": "The Quarry Contract",
+    "description": "Complete a contract to supply stone from a dangerous quarry.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2015-01-30",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/quarry_contract.png",
+    "length": "Short",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Mining", "level": 25 }]
+    },
+    "rewards": {
+      "items": ["Stone Voucher"],
+      "experience": [{ "skill": "Mining", "xp": 900 }]
+    },
+    "questSteps": [
+      "Speak to the quarry foreman.",
+      "Mine the required stone safely.",
+      "Deliver the stone and claim the voucher."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-066",
+    "name": "Lanterns in the Fog",
+    "description": "Light the lantern network to guide travelers through thick fog.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2015-07-07",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/lanterns_fog.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["Fog Lantern"],
+      "experience": [{ "skill": "Firemaking", "xp": 1500 }]
+    },
+    "questSteps": [
+      "Talk to the lighthouse keeper.",
+      "Light three lantern posts in the marsh.",
+      "Return to the keeper with confirmation."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-067",
+    "name": "The Ancient Ledger",
+    "description": "Recover a ledger that contains secrets about old trade routes.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2016-02-22",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/ancient_ledger.png",
+    "length": "Long",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Thieving", "level": 50 }],
+      "questRequirements": ["The Lost Caravan"]
+    },
+    "rewards": {
+      "items": ["Trader's Seal"],
+      "experience": [{ "skill": "Thieving", "xp": 6000 }]
+    },
+    "questSteps": [
+      "Meet the historian at the caravan camp.",
+      "Infiltrate the bandit vault.",
+      "Recover the ledger and escape."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-068",
+    "name": "Fletching Fundamentals",
+    "description": "Teach apprentices by producing training bows and arrows.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2016-09-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fletching_fundamentals.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Apprentice Toolkit"],
+      "experience": [{ "skill": "Fletching", "xp": 750 }]
+    },
+    "questSteps": [
+      "Speak to the fletching instructor.",
+      "Craft training bows and arrows.",
+      "Deliver them to the apprentices."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-069",
+    "name": "The Warden's Key",
+    "description": "Retrieve a key needed to unlock a sealed prison wing.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2017-03-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/wardens_key.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Agility", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Warden's Key"],
+      "experience": [{ "skill": "Agility", "xp": 2200 }]
+    },
+    "questSteps": [
+      "Talk to the prison warden.",
+      "Navigate the rooftops to reach the stash.",
+      "Retrieve the key and return to the warden."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-070",
+    "name": "The Silent Bell",
+    "description": "Repair a monastery bell that mysteriously stopped ringing.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2017-10-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/silent_bell.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Monastery Blessing"],
+      "experience": [{ "skill": "Prayer", "xp": 800 }]
+    },
+    "questSteps": [
+      "Speak to the monk at the monastery.",
+      "Find the missing bell clapper.",
+      "Repair the bell and test it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-071",
+    "name": "Beneath the Manor",
+    "description": "Explore tunnels beneath a manor and uncover a hidden ritual site.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2018-05-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/beneath_manor.png",
+    "length": "Long",
+    "series": "Morytania Arc",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Prayer", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Manor Sigil"],
+      "experience": [{ "skill": "Prayer", "xp": 4200 }]
+    },
+    "questSteps": [
+      "Speak to the caretaker about strange noises.",
+      "Find the hidden tunnel entrance.",
+      "Disrupt the ritual and claim the sigil."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-072",
+    "name": "The Herbal Remedy",
+    "description": "Create a remedy for a spreading illness using rare herbs.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2018-11-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/herbal_remedy.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Herblore", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Healer's Satchel"],
+      "experience": [{ "skill": "Herblore", "xp": 2800 }]
+    },
+    "questSteps": [
+      "Speak to the healer in the clinic.",
+      "Collect herbs from two regions.",
+      "Brew the remedy and distribute it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-073",
+    "name": "The Mason's Request",
+    "description": "Help a mason restore a damaged statue in the town square.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2019-02-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/masons_request.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Stone Chisel"],
+      "experience": [{ "skill": "Crafting", "xp": 500 }]
+    },
+    "questSteps": [
+      "Talk to the mason at the statue.",
+      "Gather stone fragments and mortar.",
+      "Repair the statue and report back."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-074",
+    "name": "The Clockwork Heist",
+    "description": "Stop thieves attempting to steal a rare clockwork core.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2019-07-07",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/clockwork_heist.png",
+    "length": "Long",
+    "series": "Gadgeteer Tales",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Thieving", "level": 55 }],
+      "questRequirements": ["The Hidden Workshop"]
+    },
+    "rewards": {
+      "items": ["Clockwork Core"],
+      "experience": [{ "skill": "Thieving", "xp": 6500 }]
+    },
+    "questSteps": [
+      "Meet the engineer at the workshop.",
+      "Identify the thieves' entry point.",
+      "Prevent the heist and secure the core."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-075",
+    "name": "The Orchard Feast",
+    "description": "Prepare supplies for a seasonal festival hosted in the orchard.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2020-03-20",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/orchard_feast.png",
+    "length": "Medium",
+    "series": null,
+    "rewards": {
+      "items": ["Festival Token"],
+      "experience": [{ "skill": "Cooking", "xp": 900 }]
+    },
+    "questSteps": [
+      "Talk to the festival organizer.",
+      "Collect fruit and ingredients.",
+      "Prepare the feast and begin the celebration."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-076",
+    "name": "Vault of Sand",
+    "description": "Open a buried vault protected by desert traps and riddles.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2020-10-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/vault_sand.png",
+    "length": "Very Long",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Agility", "level": 55 },
+        { "skill": "Thieving", "level": 45 }
+      ],
+      "questRequirements": ["The Ancient Ledger"]
+    },
+    "rewards": {
+      "items": ["Sand Vault Relic"],
+      "experience": [{ "skill": "Agility", "xp": 7000 }]
+    },
+    "questSteps": [
+      "Consult the desert historian for clues.",
+      "Navigate the vault's trap corridors.",
+      "Solve the riddle and claim the relic."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-077",
+    "name": "Wilderness Warning",
+    "description": "Deliver warnings to outposts about increasing wilderness threats.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2021-04-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/wilderness_warning.png",
+    "length": "Long",
+    "series": "Warfront",
+    "rewards": {
+      "items": ["Outpost Report"],
+      "experience": [{ "skill": "Defence", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Report to the strategist.",
+      "Visit two wilderness outposts.",
+      "Return with signed confirmations."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-078",
+    "name": "The Relic Confluence",
+    "description": "Unite three relic fragments and prevent a magical collapse.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2021-11-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/relic_confluence.png",
+    "length": "Very Long",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Magic", "level": 55 },
+        { "skill": "Agility", "level": 50 }
+      ],
+      "questRequirements": ["Relic of the Deep", "The Curious Compass"]
+    },
+    "rewards": {
+      "items": ["Confluence Relic"],
+      "experience": [{ "skill": "Magic", "xp": 9000 }]
+    },
+    "questSteps": [
+      "Meet the relic council at the observatory.",
+      "Recover three fragments from guarded sites.",
+      "Unite the fragments and stabilize the confluence."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-079",
+    "name": "A Fisher's Promise",
+    "description": "Help a fisherman repay a debt by catching rare fish.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2022-03-03",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/fishers_promise.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Fishing Net Upgrade"],
+      "experience": [{ "skill": "Fishing", "xp": 650 }]
+    },
+    "questSteps": [
+      "Speak to the fisherman near the riverbank.",
+      "Catch the required rare fish.",
+      "Deliver the fish to the creditor and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-080",
+    "name": "The Archive's Lock",
+    "description": "Unlock a sealed archive door by restoring three magical runes.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2022-12-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/archives_lock.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Magic", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Archive Access"],
+      "experience": [{ "skill": "Magic", "xp": 2400 }]
+    },
+    "questSteps": [
+      "Talk to the archivist about the sealed door.",
+      "Restore three runes in nearby ruins.",
+      "Unlock the archive and retrieve the record."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-081",
+    "name": "Harbor of Secrets",
+    "description": "Uncover a secret tunnel network used for smuggling beneath the harbor.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2023-02-02",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/harbor_secrets.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Thieving", "level": 45 },
+        { "skill": "Agility", "level": 40 }
+      ],
+      "questRequirements": ["Harbor Troubles"]
+    },
+    "rewards": {
+      "items": ["Smuggler's Ledger"],
+      "experience": [{ "skill": "Thieving", "xp": 5200 }]
+    },
+    "questSteps": [
+      "Speak to the harbor officer about suspicious activity.",
+      "Find the tunnel entrance near the docks.",
+      "Disable the smugglers' stash and return with the ledger."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-082",
+    "name": "The Iron Orchard",
+    "description": "Help reinforce an orchard threatened by wild beasts and broken fences.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2023-03-18",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/iron_orchard.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Construction", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Orchard Permit"],
+      "experience": [{ "skill": "Construction", "xp": 2100 }]
+    },
+    "questSteps": [
+      "Speak to the orchard keeper about the damage.",
+      "Repair three fence sections around the orchard.",
+      "Defeat the beast leader and report back."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-083",
+    "name": "Runes of the Ridge",
+    "description": "Investigate rune markings appearing along the mountain ridge.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2023-05-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/runes_ridge.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Magic", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Ridge Rune Tablet"],
+      "experience": [{ "skill": "Magic", "xp": 2800 }]
+    },
+    "questSteps": [
+      "Meet the scholar at the ridge camp.",
+      "Inspect three rune sites along the ridge.",
+      "Recover the tablet and return it to the scholar."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-084",
+    "name": "The Dune Mechanism",
+    "description": "Repair an ancient mechanism buried beneath the dunes.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2023-07-07",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/dune_mechanism.png",
+    "length": "Very Long",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Agility", "level": 50 },
+        { "skill": "Crafting", "level": 45 }
+      ],
+      "questRequirements": ["Vault of Sand"]
+    },
+    "rewards": {
+      "items": ["Dune Gearpiece"],
+      "experience": [{ "skill": "Agility", "xp": 7500 }]
+    },
+    "questSteps": [
+      "Speak to the desert engineer near the buried site.",
+      "Recover missing gear components from nearby ruins.",
+      "Repair the mechanism and secure the gearpiece."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-085",
+    "name": "A Miner’s Apology",
+    "description": "Help a miner make amends after causing a cave-in.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2023-09-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/miners_apology.png",
+    "length": "Short",
+    "series": null,
+    "rewards": {
+      "items": ["Mining Supplies"],
+      "experience": [{ "skill": "Mining", "xp": 700 }]
+    },
+    "questSteps": [
+      "Talk to the miner at the collapsed tunnel.",
+      "Clear rubble and recover the miner's tools.",
+      "Return the tools and report to the foreman."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-086",
+    "name": "The Lantern Network",
+    "description": "Restore a chain of lanterns to keep a road safe at night.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2023-10-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/lantern_network.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Firemaking", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Lantern Keeper Token"],
+      "experience": [{ "skill": "Firemaking", "xp": 1800 }]
+    },
+    "questSteps": [
+      "Speak to the road warden.",
+      "Light five lantern posts along the road.",
+      "Return for your token."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-087",
+    "name": "The Ranger’s Oath",
+    "description": "Complete a trial to earn a ranger’s oath and access to patrol routes.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2024-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/rangers_oath.png",
+    "length": "Long",
+    "series": "Ranger Path",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Ranged", "level": 55 }],
+      "questRequirements": ["The Hunter's Oath"]
+    },
+    "rewards": {
+      "items": ["Ranger Oath Scroll"],
+      "experience": [{ "skill": "Ranged", "xp": 6500 }]
+    },
+    "questSteps": [
+      "Meet the ranger captain at the outpost.",
+      "Complete two tracking trials.",
+      "Defeat the rogue beast and claim your oath."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-088",
+    "name": "Clockwork Recall",
+    "description": "Recover stolen clockwork parts before the city’s gates fail.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2024-02-14",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/clockwork_recall.png",
+    "length": "Medium",
+    "series": "Gadgeteer Tales",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Crafting", "level": 40 }]
+    },
+    "rewards": {
+      "items": ["Clockwork Spares"],
+      "experience": [{ "skill": "Crafting", "xp": 2600 }]
+    },
+    "questSteps": [
+      "Speak to the gate engineer.",
+      "Locate the thieves’ hideout.",
+      "Recover the parts and return them."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-089",
+    "name": "The Relic Exchange",
+    "description": "Negotiate the return of a relic traded on the black market.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2024-03-03",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/relic_exchange.png",
+    "length": "Medium",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Thieving", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Relic Receipt"],
+      "experience": [{ "skill": "Thieving", "xp": 2400 }]
+    },
+    "questSteps": [
+      "Meet the collector in the market.",
+      "Arrange the exchange at a neutral location.",
+      "Secure the relic and return it to the curator."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-090",
+    "name": "A Baker’s Promise",
+    "description": "Help a baker perfect a recipe for a royal event.",
+    "difficulty": "Easy",
+    "membersOnly": false,
+    "questPointReward": 1,
+    "releaseDate": "2024-04-04",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/bakers_promise.png",
+    "length": "Short",
+    "series": "culinaromancer",
+    "rewards": {
+      "items": ["Baker's Token"],
+      "experience": [{ "skill": "Cooking", "xp": 800 }]
+    },
+    "questSteps": [
+      "Speak to the baker in town.",
+      "Gather special ingredients.",
+      "Bake the dish and deliver it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-091",
+    "name": "Marsh Cleansing",
+    "description": "Cleanse a marsh tainted by a creeping corruption.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2024-05-05",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/marsh_cleansing.png",
+    "length": "Long",
+    "series": "Morytania Arc",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Prayer", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Cleansed Charm"],
+      "experience": [{ "skill": "Prayer", "xp": 5200 }]
+    },
+    "questSteps": [
+      "Speak to the druid near the marsh.",
+      "Gather purification materials.",
+      "Cleanse three corruption sites and return."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-092",
+    "name": "The Smith’s Ledger",
+    "description": "Recover a stolen ledger containing smithing contracts.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2024-06-06",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/smiths_ledger.png",
+    "length": "Medium",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Smithing", "level": 35 }]
+    },
+    "rewards": {
+      "items": ["Contract Seal"],
+      "experience": [{ "skill": "Smithing", "xp": 2200 }]
+    },
+    "questSteps": [
+      "Speak to the smith in the workshop.",
+      "Track the thief through the alleys.",
+      "Recover the ledger and return it."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-093",
+    "name": "The Orchard Guardian",
+    "description": "Help defend an orchard from nightly raids.",
+    "difficulty": "Medium",
+    "membersOnly": false,
+    "questPointReward": 2,
+    "releaseDate": "2024-07-07",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/orchard_guardian.png",
+    "length": "Long",
+    "series": null,
+    "requirements": {
+      "skillRequirements": [{ "skill": "Defence", "level": 30 }]
+    },
+    "rewards": {
+      "items": ["Orchard Crest"],
+      "experience": [{ "skill": "Defence", "xp": 2000 }]
+    },
+    "questSteps": [
+      "Meet the orchard keeper at sunset.",
+      "Defend two entry points from raiders.",
+      "Defeat the raid leader and claim the crest."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-094",
+    "name": "Desert Observatory",
+    "description": "Restore an observatory used to track stars for desert navigation.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2024-08-08",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/desert_observatory.png",
+    "length": "Very Long",
+    "series": "Desert Journeys",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Crafting", "level": 50 },
+        { "skill": "Agility", "level": 45 }
+      ]
+    },
+    "rewards": {
+      "items": ["Star Chart"],
+      "experience": [{ "skill": "Crafting", "xp": 6000 }]
+    },
+    "questSteps": [
+      "Speak to the astronomer near the ruins.",
+      "Repair the lens assembly and mechanisms.",
+      "Calibrate the observatory and retrieve the chart."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-095",
+    "name": "Gnome Relay",
+    "description": "Carry a coded message through a gnome relay network.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2024-09-09",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/gnome_relay.png",
+    "length": "Short",
+    "series": "Gnome Tech",
+    "rewards": {
+      "items": ["Relay Pin"],
+      "experience": [{ "skill": "Agility", "xp": 700 }]
+    },
+    "questSteps": [
+      "Speak to the gnome messenger.",
+      "Visit two relay stations in order.",
+      "Deliver the message and return for your pin."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-096",
+    "name": "The Archive Trial",
+    "description": "Pass a trial to earn access to restricted archive records.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2024-10-10",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/archive_trial.png",
+    "length": "Medium",
+    "series": "Mystic Archives",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Magic", "level": 45 }]
+    },
+    "rewards": {
+      "items": ["Archive Seal"],
+      "experience": [{ "skill": "Magic", "xp": 3000 }]
+    },
+    "questSteps": [
+      "Speak to the archivist about the trial.",
+      "Solve two rune puzzles in the archive wing.",
+      "Complete the trial and receive the seal."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-097",
+    "name": "Relic Courier",
+    "description": "Transport a fragile relic safely between two museums.",
+    "difficulty": "Easy",
+    "membersOnly": true,
+    "questPointReward": 1,
+    "releaseDate": "2024-11-11",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/relic_courier.png",
+    "length": "Short",
+    "series": "Relic Saga",
+    "rewards": {
+      "items": ["Museum Favor"],
+      "experience": [{ "skill": "Agility", "xp": 900 }]
+    },
+    "questSteps": [
+      "Pick up the relic crate from the curator.",
+      "Avoid hazards on the route.",
+      "Deliver the relic and return the receipt."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-098",
+    "name": "Warfront Briefing",
+    "description": "Attend a strategic briefing and carry orders to allied camps.",
+    "difficulty": "Medium",
+    "membersOnly": true,
+    "questPointReward": 2,
+    "releaseDate": "2024-12-12",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/warfront_briefing.png",
+    "length": "Medium",
+    "series": "Warfront",
+    "rewards": {
+      "items": ["Orders Satchel"],
+      "experience": [{ "skill": "Defence", "xp": 2000 }]
+    },
+    "questSteps": [
+      "Report to the war strategist.",
+      "Deliver orders to two allied camps.",
+      "Return with confirmations."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-099",
+    "name": "The Culinaromancer’s Note",
+    "description": "Recover a cryptic note hinting at a dangerous culinary ritual.",
+    "difficulty": "Hard",
+    "membersOnly": true,
+    "questPointReward": 3,
+    "releaseDate": "2025-01-01",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/culinaromancer_note.png",
+    "length": "Long",
+    "series": "culinaromancer",
+    "requirements": {
+      "skillRequirements": [{ "skill": "Cooking", "level": 60 }]
+    },
+    "rewards": {
+      "items": ["Cursed Recipe Page"],
+      "experience": [{ "skill": "Cooking", "xp": 5000 }]
+    },
+    "questSteps": [
+      "Speak to the worried cook in Lumbridge.",
+      "Search the kitchen cellar for the note.",
+      "Decode the message and return your findings."
+    ]
+  },
+  {
+    "type": "quest",
+    "id": "QUEST-100",
+    "name": "The Grand Convergence",
+    "description": "Stop a catastrophic convergence of relic energies before it tears reality apart.",
+    "difficulty": "Grandmaster",
+    "membersOnly": true,
+    "questPointReward": 10,
+    "releaseDate": "2025-02-02",
+    "iconUrl": "https://raw.githubusercontent.com/yourname/osrs-data/main/images/grand_convergence.png",
+    "length": "Very Long",
+    "series": "Relic Saga",
+    "requirements": {
+      "skillRequirements": [
+        { "skill": "Magic", "level": 70 },
+        { "skill": "Agility", "level": 60 }
+      ],
+      "questRequirements": ["The Relic Confluence", "The Ancient Gate"]
+    },
+    "rewards": {
+      "items": ["Convergence Relic", "Access to the Convergence Chamber"],
+      "experience": [{ "skill": "Magic", "xp": 20000 }]
+    },
+    "questSteps": [
+      "Meet the relic council at the observatory.",
+      "Stabilize three confluence nodes across the world.",
+      "Defeat the convergence guardian and seal the chamber."
+    ]
   }
 ]
