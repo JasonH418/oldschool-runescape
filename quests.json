@@ -13,14 +13,50 @@
     "series": null,
     "requirements": {
       "skillRequirements": [
-        { "skill": "Smithing", "level": 33 },
-        { "skill": "Crafting", "level": 33 }
+        {
+          "skill": "Smithing",
+          "level": 33
+        },
+        {
+          "skill": "Crafting",
+          "level": 33
+        }
       ],
       "questRequirements": []
     },
     "rewards": {
-      "items": ["Rune Platebody", "Access to Crandor"],
-      "experience": []
+      "items": [
+        "Rune platebody",
+        "Anti-dragon shield",
+        "Dragon bones",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 18000
+        },
+        {
+          "skill": "Strength",
+          "xp": 18000
+        },
+        {
+          "skill": "Defence",
+          "xp": 18000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 12000
+        },
+        {
+          "skill": "Smithing",
+          "xp": 5000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 5000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the Guildmaster in the Champions' Guild.",
@@ -42,8 +78,23 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Access to the Lumbridge Castle kitchen"],
-      "experience": [{ "skill": "Cooking", "xp": 300 }]
+      "items": [
+        "Cooking gauntlets",
+        "Chef's hat",
+        "Egg",
+        "Bucket of milk",
+        "Pot of flour"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 5000
+        },
+        {
+          "skill": "Firemaking",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the Cook in Lumbridge Castle.",
@@ -64,11 +115,31 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "questRequirements": ["Cook's Assistant"]
+      "questRequirements": [
+        "Cook's Assistant"
+      ]
     },
     "rewards": {
-      "items": ["Silverlight"],
-      "experience": []
+      "items": [
+        "Silverlight",
+        "Black sword",
+        "Bones",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 6000
+        },
+        {
+          "skill": "Strength",
+          "xp": 6000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 4000
+        }
+      ]
     },
     "questSteps": [
       "Speak to Gypsy Aris in Varrock.",
@@ -89,8 +160,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["5 Quest Points"],
-      "experience": []
+      "items": [
+        "Cadava potion",
+        "Cadava berries",
+        "Message",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 1200
+        },
+        {
+          "skill": "Magic",
+          "xp": 800
+        }
+      ]
     },
     "questSteps": [
       "Talk to Romeo in Varrock Square.",
@@ -111,8 +196,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Coins"],
-      "experience": [{ "skill": "Crafting", "xp": 150 }]
+      "items": [
+        "Coins",
+        "Ball of wool",
+        "Shears",
+        "Wool"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 1500
+        },
+        {
+          "skill": "Farming",
+          "xp": 800
+        }
+      ]
     },
     "questSteps": [
       "Speak to Fred the Farmer near Lumbridge.",
@@ -133,8 +232,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Gold bar"],
-      "experience": []
+      "items": [
+        "Goblin mail",
+        "Blue goblin mail",
+        "Orange goblin mail",
+        "Gold bar"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 1200
+        },
+        {
+          "skill": "Defence",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Talk to General Wartface and General Bentnoze.",
@@ -155,8 +268,22 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["300 Coins"],
-      "experience": []
+      "items": [
+        "Coins",
+        "Pressure gauge",
+        "Rubber tube",
+        "Oil can"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 1000
+        },
+        {
+          "skill": "Magic",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Talk to Veronica outside Draynor Manor.",
@@ -177,12 +304,35 @@
     "length": "Long",
     "series": "Morytania Arc",
     "requirements": {
-      "skillRequirements": [{ "skill": "Prayer", "level": 25 }],
+      "skillRequirements": [
+        {
+          "skill": "Prayer",
+          "level": 25
+        }
+      ],
       "questRequirements": []
     },
     "rewards": {
-      "items": ["Access to the eastern swamp route"],
-      "experience": [{ "skill": "Prayer", "xp": 1200 }]
+      "items": [
+        "Garlic",
+        "Stake",
+        "Hammer",
+        "Holy symbol"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 5000
+        },
+        {
+          "skill": "Magic",
+          "xp": 2000
+        },
+        {
+          "skill": "Attack",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Speak to a suspicious monk near the temple.",
@@ -203,11 +353,34 @@
     "length": "Medium",
     "series": "Ranger Path",
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Ranger's Token"],
-      "experience": [{ "skill": "Agility", "xp": 2500 }]
+      "items": [
+        "Maple shortbow",
+        "Steel arrow",
+        "Leather boots",
+        "Green cape"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 7000
+        },
+        {
+          "skill": "Ranged",
+          "xp": 3000
+        },
+        {
+          "skill": "Hunter",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Enter the forest trial grounds.",
@@ -228,8 +401,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Mining Supplies"],
-      "experience": [{ "skill": "Mining", "xp": 800 }]
+      "items": [
+        "Steel pickaxe",
+        "Coal",
+        "Iron ore",
+        "Mithril ore"
+      ],
+      "experience": [
+        {
+          "skill": "Mining",
+          "xp": 5000
+        },
+        {
+          "skill": "Smithing",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the miner outside the cavern.",
@@ -251,13 +438,37 @@
     "series": "Relic Saga",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Thieving", "level": 45 },
-        { "skill": "Agility", "level": 40 }
+        {
+          "skill": "Thieving",
+          "level": 45
+        },
+        {
+          "skill": "Agility",
+          "level": 40
+        }
       ]
     },
     "rewards": {
-      "items": ["Sigil of Passage"],
-      "experience": [{ "skill": "Thieving", "xp": 5000 }]
+      "items": [
+        "Lockpick",
+        "Rope",
+        "Fire rune",
+        "Chaos rune"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 8000
+        },
+        {
+          "skill": "Agility",
+          "xp": 5000
+        },
+        {
+          "skill": "Magic",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Find the first sigil shard in the ruins.",
@@ -278,8 +489,26 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["Herbal Remedies"],
-      "experience": [{ "skill": "Herblore", "xp": 2500 }]
+      "items": [
+        "Vial of water",
+        "Guam leaf",
+        "Marrentill",
+        "Ashes"
+      ],
+      "experience": [
+        {
+          "skill": "Herblore",
+          "xp": 6000
+        },
+        {
+          "skill": "Farming",
+          "xp": 2500
+        },
+        {
+          "skill": "Firemaking",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the village healer.",
@@ -300,11 +529,30 @@
     "length": "Long",
     "series": "Gadgeteer Tales",
     "requirements": {
-      "skillRequirements": [{ "skill": "Crafting", "level": 50 }]
+      "skillRequirements": [
+        {
+          "skill": "Crafting",
+          "level": 50
+        }
+      ]
     },
     "rewards": {
-      "items": ["Clockwork Key"],
-      "experience": [{ "skill": "Crafting", "xp": 4000 }]
+      "items": [
+        "Clockwork",
+        "Steel bar",
+        "Bronze wire",
+        "Hammer"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 7000
+        },
+        {
+          "skill": "Smithing",
+          "xp": 3500
+        }
+      ]
     },
     "questSteps": [
       "Inspect the waterworks for damage.",
@@ -325,11 +573,30 @@
     "length": "Medium",
     "series": "Desert Journeys",
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Caravan Pass"],
-      "experience": [{ "skill": "Agility", "xp": 1800 }]
+      "items": [
+        "Desert boots",
+        "Desert robe",
+        "Waterskin(4)",
+        "Rope"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 6000
+        },
+        {
+          "skill": "Thieving",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the caravan master.",
@@ -350,8 +617,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Harbor Access Badge"],
-      "experience": [{ "skill": "Fishing", "xp": 900 }]
+      "items": [
+        "Small fishing net",
+        "Fishing bait",
+        "Raw tuna",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 4000
+        },
+        {
+          "skill": "Thieving",
+          "xp": 1200
+        }
+      ]
     },
     "questSteps": [
       "Talk to the harbor officer.",
@@ -372,11 +653,30 @@
     "length": "Medium",
     "series": "Northern Winds",
     "requirements": {
-      "skillRequirements": [{ "skill": "Firemaking", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Firemaking",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Warm Cloak"],
-      "experience": [{ "skill": "Firemaking", "xp": 1500 }]
+      "items": [
+        "Warm gloves",
+        "Climbing boots",
+        "Tinderbox",
+        "Logs"
+      ],
+      "experience": [
+        {
+          "skill": "Firemaking",
+          "xp": 5000
+        },
+        {
+          "skill": "Agility",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Prepare supplies for the journey.",
@@ -397,11 +697,34 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Construction", "level": 20 }]
+      "skillRequirements": [
+        {
+          "skill": "Construction",
+          "level": 20
+        }
+      ]
     },
     "rewards": {
-      "items": ["Temple Blessing"],
-      "experience": [{ "skill": "Construction", "xp": 1000 }]
+      "items": [
+        "Hammer",
+        "Plank",
+        "Steel nails",
+        "Holy symbol"
+      ],
+      "experience": [
+        {
+          "skill": "Construction",
+          "xp": 4000
+        },
+        {
+          "skill": "Prayer",
+          "xp": 2000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the head priest.",
@@ -422,12 +745,37 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Attack", "level": 50 }],
-      "questRequirements": ["Harbor Troubles"]
+      "skillRequirements": [
+        {
+          "skill": "Attack",
+          "level": 50
+        }
+      ],
+      "questRequirements": [
+        "Harbor Troubles"
+      ]
     },
     "rewards": {
-      "items": ["Bandit Seal"],
-      "experience": [{ "skill": "Attack", "xp": 5000 }]
+      "items": [
+        "Steel sword",
+        "Black cape",
+        "Coins",
+        "Attack potion(3)"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 9000
+        },
+        {
+          "skill": "Strength",
+          "xp": 7000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 4000
+        }
+      ]
     },
     "questSteps": [
       "Meet the scout near the canyon.",
@@ -448,8 +796,22 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "rewards": {
-      "items": ["Ancient Tome"],
-      "experience": [{ "skill": "Magic", "xp": 2200 }]
+      "items": [
+        "Book",
+        "Air rune",
+        "Mind rune",
+        "Ghostspeak amulet"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 7000
+        },
+        {
+          "skill": "Prayer",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the librarian outside the sealed entrance.",
@@ -470,11 +832,30 @@
     "length": "Short",
     "series": "Gnome Tech",
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 25 }]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 25
+        }
+      ]
     },
     "rewards": {
-      "items": ["Glider Access"],
-      "experience": [{ "skill": "Agility", "xp": 1200 }]
+      "items": [
+        "Gnome goggles",
+        "Gnome scarf",
+        "Gnomeball",
+        "Mint cake"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 5000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the glider engineer.",
@@ -495,11 +876,34 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Prayer", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Prayer",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Blessed Vial"],
-      "experience": [{ "skill": "Prayer", "xp": 1800 }]
+      "items": [
+        "Blessed water",
+        "Vial",
+        "Marrentill",
+        "Holy symbol"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 6000
+        },
+        {
+          "skill": "Herblore",
+          "xp": 3000
+        },
+        {
+          "skill": "Magic",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the druid elder.",
@@ -520,8 +924,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Detective Notes"],
-      "experience": [{ "skill": "Thieving", "xp": 600 }]
+      "items": [
+        "Lockpick",
+        "Coins",
+        "Silk",
+        "Gold ring"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 3500
+        },
+        {
+          "skill": "Agility",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the market guard.",
@@ -542,11 +960,34 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Smithing", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Smithing",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Ceremonial Blade"],
-      "experience": [{ "skill": "Smithing", "xp": 2500 }]
+      "items": [
+        "Iron sword",
+        "Iron bar",
+        "Coal",
+        "Smithing cape"
+      ],
+      "experience": [
+        {
+          "skill": "Smithing",
+          "xp": 7000
+        },
+        {
+          "skill": "Mining",
+          "xp": 3500
+        },
+        {
+          "skill": "Crafting",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the master blacksmith.",
@@ -567,8 +1008,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Pet Kitten"],
-      "experience": []
+      "items": [
+        "Pet kitten",
+        "Raw sardine",
+        "Bucket of milk",
+        "Ball of wool"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 1000
+        },
+        {
+          "skill": "Hunter",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the worried citizen.",
@@ -589,12 +1044,37 @@
     "length": "Long",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Magic", "level": 55 }],
-      "questRequirements": ["The Haunted Library"]
+      "skillRequirements": [
+        {
+          "skill": "Magic",
+          "level": 55
+        }
+      ],
+      "questRequirements": [
+        "The Haunted Library"
+      ]
     },
     "rewards": {
-      "items": ["Runic Stabilizer"],
-      "experience": [{ "skill": "Magic", "xp": 6000 }]
+      "items": [
+        "Rune essence",
+        "Pure essence",
+        "Air rune",
+        "Law rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 10000
+        },
+        {
+          "skill": "Runecrafting",
+          "xp": 6000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Enter the ruin with protective gear.",
@@ -615,8 +1095,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Fishing Bait Bundle"],
-      "experience": [{ "skill": "Fishing", "xp": 500 }]
+      "items": [
+        "Fishing bait",
+        "Small fishing net",
+        "Raw trout",
+        "Raw salmon"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 3500
+        },
+        {
+          "skill": "Cooking",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the fisherman at the pier.",
@@ -637,11 +1131,34 @@
     "length": "Medium",
     "series": "Desert Journeys",
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Caravan Token"],
-      "experience": [{ "skill": "Agility", "xp": 1600 }]
+      "items": [
+        "Waterskin(4)",
+        "Desert shirt",
+        "Desert boots",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 6000
+        },
+        {
+          "skill": "Thieving",
+          "xp": 2500
+        },
+        {
+          "skill": "Hunter",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the caravan master in the desert town.",
@@ -662,11 +1179,34 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Farming", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Farming",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Grove Charm"],
-      "experience": [{ "skill": "Farming", "xp": 3000 }]
+      "items": [
+        "Magic secateurs",
+        "Compost",
+        "Supercompost",
+        "Willow seed"
+      ],
+      "experience": [
+        {
+          "skill": "Farming",
+          "xp": 8000
+        },
+        {
+          "skill": "Herblore",
+          "xp": 4000
+        },
+        {
+          "skill": "Woodcutting",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Talk to the grove keeper.",
@@ -688,16 +1228,43 @@
     "series": "Warfront",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Attack", "level": 60 },
-        { "skill": "Defence", "level": 60 }
+        {
+          "skill": "Attack",
+          "level": 60
+        },
+        {
+          "skill": "Defence",
+          "level": 60
+        }
       ],
-      "questRequirements": ["Bandit Camp Raid"]
+      "questRequirements": [
+        "Bandit Camp Raid"
+      ]
     },
     "rewards": {
-      "items": ["Blackridge Medal"],
+      "items": [
+        "Rune sword",
+        "Rune platelegs",
+        "Rune kiteshield",
+        "Strength potion(3)"
+      ],
       "experience": [
-        { "skill": "Attack", "xp": 7000 },
-        { "skill": "Defence", "xp": 7000 }
+        {
+          "skill": "Attack",
+          "xp": 12000
+        },
+        {
+          "skill": "Defence",
+          "xp": 12000
+        },
+        {
+          "skill": "Strength",
+          "xp": 10000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 6000
+        }
       ]
     },
     "questSteps": [
@@ -719,8 +1286,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Spirit Lantern"],
-      "experience": [{ "skill": "Prayer", "xp": 600 }]
+      "items": [
+        "Bullseye lantern",
+        "Bones",
+        "Holy symbol",
+        "Ghostspeak amulet"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 4000
+        },
+        {
+          "skill": "Magic",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the village elder at dusk.",
@@ -741,8 +1322,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Merchant Discount"],
-      "experience": [{ "skill": "Crafting", "xp": 700 }]
+      "items": [
+        "Silk",
+        "Uncut emerald",
+        "Gold necklace",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 4500
+        },
+        {
+          "skill": "Thieving",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Meet the merchant in the trade district.",
@@ -763,12 +1358,37 @@
     "length": "Long",
     "series": "Gadgeteer Tales",
     "requirements": {
-      "skillRequirements": [{ "skill": "Crafting", "level": 55 }],
-      "questRequirements": ["The Clockwork Plot"]
+      "skillRequirements": [
+        {
+          "skill": "Crafting",
+          "level": 55
+        }
+      ],
+      "questRequirements": [
+        "The Clockwork Plot"
+      ]
     },
     "rewards": {
-      "items": ["Workshop Blueprints"],
-      "experience": [{ "skill": "Crafting", "xp": 5500 }]
+      "items": [
+        "Clockwork",
+        "Steel bar",
+        "Mithril bar",
+        "Tool kit"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 10000
+        },
+        {
+          "skill": "Smithing",
+          "xp": 5000
+        },
+        {
+          "skill": "Construction",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Find the hidden entrance.",
@@ -789,11 +1409,34 @@
     "length": "Medium",
     "series": "Relic Saga",
     "requirements": {
-      "skillRequirements": [{ "skill": "Thieving", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Thieving",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Museum Token"],
-      "experience": [{ "skill": "Thieving", "xp": 2300 }]
+      "items": [
+        "Gold ring",
+        "Emerald amulet",
+        "Lockpick",
+        "Spade"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 6000
+        },
+        {
+          "skill": "Agility",
+          "xp": 3000
+        },
+        {
+          "skill": "Magic",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the curator.",
@@ -814,8 +1457,26 @@
     "length": "Long",
     "series": null,
     "rewards": {
-      "items": ["Sailor's Knot Charm"],
-      "experience": [{ "skill": "Fishing", "xp": 2200 }]
+      "items": [
+        "Rope",
+        "Raw lobster",
+        "Raw swordfish",
+        "Fishing rod"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 7000
+        },
+        {
+          "skill": "Agility",
+          "xp": 3000
+        },
+        {
+          "skill": "Cooking",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the harbormaster.",
@@ -837,14 +1498,40 @@
     "series": "Mystic Archives",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Magic", "level": 60 },
-        { "skill": "Agility", "level": 50 }
+        {
+          "skill": "Magic",
+          "level": 60
+        },
+        {
+          "skill": "Agility",
+          "level": 50
+        }
       ],
-      "questRequirements": ["Runes and Ruins"]
+      "questRequirements": [
+        "Runes and Ruins"
+      ]
     },
     "rewards": {
-      "items": ["Gate Sigil"],
-      "experience": [{ "skill": "Magic", "xp": 8000 }]
+      "items": [
+        "Ancient staff",
+        "Law rune",
+        "Death rune",
+        "Chaos rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 14000
+        },
+        {
+          "skill": "Agility",
+          "xp": 7000
+        },
+        {
+          "skill": "Runecrafting",
+          "xp": 5000
+        }
+      ]
     },
     "questSteps": [
       "Find the gate in the ruins.",
@@ -865,11 +1552,30 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Thieving", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Thieving",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Guild Invitation"],
-      "experience": [{ "skill": "Thieving", "xp": 3200 }]
+      "items": [
+        "Rogue mask",
+        "Rogue top",
+        "Lockpick",
+        "Black boots"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 9000
+        },
+        {
+          "skill": "Agility",
+          "xp": 4000
+        }
+      ]
     },
     "questSteps": [
       "Talk to a nervous villager.",
@@ -890,8 +1596,26 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Smithing Supplies"],
-      "experience": [{ "skill": "Smithing", "xp": 900 }]
+      "items": [
+        "Smithing gauntlets",
+        "Coal",
+        "Iron bar",
+        "Steel bar"
+      ],
+      "experience": [
+        {
+          "skill": "Smithing",
+          "xp": 5000
+        },
+        {
+          "skill": "Mining",
+          "xp": 2500
+        },
+        {
+          "skill": "Firemaking",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the blacksmith.",
@@ -912,11 +1636,34 @@
     "length": "Long",
     "series": "Ranger Path",
     "requirements": {
-      "skillRequirements": [{ "skill": "Ranged", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Ranged",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Hunter's Emblem"],
-      "experience": [{ "skill": "Ranged", "xp": 4000 }]
+      "items": [
+        "Hunters' crossbow",
+        "Kebbit bolts",
+        "Green d'hide body",
+        "Coif"
+      ],
+      "experience": [
+        {
+          "skill": "Ranged",
+          "xp": 9000
+        },
+        {
+          "skill": "Hunter",
+          "xp": 7000
+        },
+        {
+          "skill": "Agility",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the huntmaster.",
@@ -938,8 +1685,14 @@
     "series": "culinaromancer",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Cooking", "level": 70 },
-        { "skill": "Crafting", "level": 40 }
+        {
+          "skill": "Cooking",
+          "level": 70
+        },
+        {
+          "skill": "Crafting",
+          "level": 40
+        }
       ],
       "questRequirements": [
         "Cook's Assistant",
@@ -948,8 +1701,30 @@
       ]
     },
     "rewards": {
-      "items": ["Barrows Gloves"],
-      "experience": [{ "skill": "Cooking", "xp": 20000 }]
+      "items": [
+        "Barrows gloves",
+        "Chef's hat",
+        "Cooking apple",
+        "Chocolate dust"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 30000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 10000
+        },
+        {
+          "skill": "Magic",
+          "xp": 8000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 5000
+        }
+      ]
     },
     "questSteps": [
       "Start the quest by speaking to the Cook in Lumbridge Castle.",
@@ -970,12 +1745,37 @@
     "length": "Long",
     "series": "Warfront",
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 55 }],
-      "questRequirements": ["Battle at Blackridge"]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 55
+        }
+      ],
+      "questRequirements": [
+        "Battle at Blackridge"
+      ]
     },
     "rewards": {
-      "items": ["Warfront Banner"],
-      "experience": [{ "skill": "Agility", "xp": 6500 }]
+      "items": [
+        "Boots of lightness",
+        "Energy potion(4)",
+        "Stamina potion(4)",
+        "Ring of dueling(8)"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 12000
+        },
+        {
+          "skill": "Defence",
+          "xp": 6000
+        },
+        {
+          "skill": "Hitpoints",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Report to the messenger captain.",
@@ -996,8 +1796,22 @@
     "length": "Short",
     "series": "Desert Journeys",
     "rewards": {
-      "items": ["Desert Waterskin"],
-      "experience": [{ "skill": "Agility", "xp": 650 }]
+      "items": [
+        "Waterskin(4)",
+        "Desert boots",
+        "Desert robe",
+        "Shantay pass"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 5000
+        },
+        {
+          "skill": "Thieving",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the courier master at the desert outpost.",
@@ -1018,11 +1832,30 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Fishing", "level": 20 }]
+      "skillRequirements": [
+        {
+          "skill": "Fishing",
+          "level": 20
+        }
+      ]
     },
     "rewards": {
-      "items": ["River Permit"],
-      "experience": [{ "skill": "Fishing", "xp": 1200 }]
+      "items": [
+        "Fishing rod",
+        "Fly fishing rod",
+        "Feather",
+        "Raw trout"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 6000
+        },
+        {
+          "skill": "Cooking",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Speak to both town leaders.",
@@ -1044,13 +1877,37 @@
     "series": "Morytania Arc",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Prayer", "level": 40 },
-        { "skill": "Agility", "level": 35 }
+        {
+          "skill": "Prayer",
+          "level": 40
+        },
+        {
+          "skill": "Agility",
+          "level": 35
+        }
       ]
     },
     "rewards": {
-      "items": ["Whisper Charm"],
-      "experience": [{ "skill": "Prayer", "xp": 3500 }]
+      "items": [
+        "Prayer potion(4)",
+        "Ectophial",
+        "Bones",
+        "Ghostspeak amulet"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 9000
+        },
+        {
+          "skill": "Agility",
+          "xp": 4000
+        },
+        {
+          "skill": "Magic",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Obtain permission to enter the crypt.",
@@ -1071,8 +1928,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Orchard Basket"],
-      "experience": [{ "skill": "Farming", "xp": 800 }]
+      "items": [
+        "Magic secateurs",
+        "Compost",
+        "Supercompost",
+        "Ranarr seed"
+      ],
+      "experience": [
+        {
+          "skill": "Farming",
+          "xp": 6000
+        },
+        {
+          "skill": "Herblore",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the gardener in the orchard.",
@@ -1094,13 +1965,37 @@
     "series": "Gnome Tech",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Agility", "level": 30 },
-        { "skill": "Crafting", "level": 30 }
+        {
+          "skill": "Agility",
+          "level": 30
+        },
+        {
+          "skill": "Crafting",
+          "level": 30
+        }
       ]
     },
     "rewards": {
-      "items": ["Scout Signal Badge"],
-      "experience": [{ "skill": "Crafting", "xp": 1600 }]
+      "items": [
+        "Gnome goggles",
+        "Gnome scarf",
+        "Clockwork",
+        "Air rune"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 6000
+        },
+        {
+          "skill": "Agility",
+          "xp": 4000
+        },
+        {
+          "skill": "Construction",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Meet the gnome scout at the tower.",
@@ -1121,8 +2016,22 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Keg Token"],
-      "experience": [{ "skill": "Cooking", "xp": 600 }]
+      "items": [
+        "Asgarnian ale",
+        "Dwarven stout",
+        "Greenman's ale",
+        "Chef's hat"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 5000
+        },
+        {
+          "skill": "Farming",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the head brewer.",
@@ -1143,11 +2052,34 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Construction", "level": 25 }]
+      "skillRequirements": [
+        {
+          "skill": "Construction",
+          "level": 25
+        }
+      ]
     },
     "rewards": {
-      "items": ["Bridge Pass"],
-      "experience": [{ "skill": "Construction", "xp": 1800 }]
+      "items": [
+        "Hammer",
+        "Plank",
+        "Steel nails",
+        "Rope"
+      ],
+      "experience": [
+        {
+          "skill": "Construction",
+          "xp": 7000
+        },
+        {
+          "skill": "Woodcutting",
+          "xp": 3000
+        },
+        {
+          "skill": "Crafting",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the trade overseer.",
@@ -1168,11 +2100,34 @@
     "length": "Long",
     "series": "culinaromancer",
     "requirements": {
-      "skillRequirements": [{ "skill": "Cooking", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Cooking",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Chef's Seal"],
-      "experience": [{ "skill": "Cooking", "xp": 3200 }]
+      "items": [
+        "Chef's hat",
+        "Cooking gauntlets",
+        "Raw lobster",
+        "Chocolate cake"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 9000
+        },
+        {
+          "skill": "Herblore",
+          "xp": 3000
+        },
+        {
+          "skill": "Fishing",
+          "xp": 2500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the wandering chef.",
@@ -1193,8 +2148,26 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["Watchman Cloak"],
-      "experience": [{ "skill": "Thieving", "xp": 500 }]
+      "items": [
+        "Black cape",
+        "Steel dagger",
+        "Lockpick",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 5000
+        },
+        {
+          "skill": "Defence",
+          "xp": 3000
+        },
+        {
+          "skill": "Agility",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Report to the watch captain after sunset.",
@@ -1215,11 +2188,39 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Fishing", "level": 50 }]
+      "skillRequirements": [
+        {
+          "skill": "Fishing",
+          "level": 50
+        }
+      ]
     },
     "rewards": {
-      "items": ["Salvager's Hook"],
-      "experience": [{ "skill": "Fishing", "xp": 5200 }]
+      "items": [
+        "Harpoon",
+        "Big fishing net",
+        "Casket",
+        "Pearl necklace",
+        "Raw shark"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 12000
+        },
+        {
+          "skill": "Cooking",
+          "xp": 5000
+        },
+        {
+          "skill": "Agility",
+          "xp": 4000
+        },
+        {
+          "skill": "Mining",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the dockmaster about the wreck.",
@@ -1240,11 +2241,25 @@
     "length": "Short",
     "series": "Ranger Path",
     "requirements": {
-      "skillRequirements": [{ "skill": "Fletching", "level": 25 }]
+      "skillRequirements": [
+        {
+          "skill": "Fletching",
+          "level": 25
+        }
+      ]
     },
     "rewards": {
-      "items": ["Ranger Supplies"],
-      "experience": [{ "skill": "Fletching", "xp": 1000 }]
+      "items": [
+        "Maple longbow",
+        "Adamant arrow",
+        "Coif"
+      ],
+      "experience": [
+        {
+          "skill": "Fletching",
+          "xp": 1000
+        }
+      ]
     },
     "questSteps": [
       "Meet the ranger lieutenant.",
@@ -1265,8 +2280,17 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "rewards": {
-      "items": ["Woodland Sigil"],
-      "experience": [{ "skill": "Magic", "xp": 1800 }]
+      "items": [
+        "Nature rune",
+        "Earth rune",
+        "Mind rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 1800
+        }
+      ]
     },
     "questSteps": [
       "Speak to the herbalist at the forest edge.",
@@ -1287,11 +2311,25 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Smithing", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Smithing",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Ceremonial Helm"],
-      "experience": [{ "skill": "Smithing", "xp": 2400 }]
+      "items": [
+        "Steel full helm",
+        "Steel bar",
+        "Coal"
+      ],
+      "experience": [
+        {
+          "skill": "Smithing",
+          "xp": 2400
+        }
+      ]
     },
     "questSteps": [
       "Speak to the lord's steward.",
@@ -1312,7 +2350,11 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Map Fragment"],
+      "items": [
+        "Treasure map",
+        "Spade",
+        "Coins"
+      ],
       "experience": []
     },
     "questSteps": [
@@ -1335,14 +2377,31 @@
     "series": "Relic Saga",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Agility", "level": 45 },
-        { "skill": "Magic", "level": 45 }
+        {
+          "skill": "Agility",
+          "level": 45
+        },
+        {
+          "skill": "Magic",
+          "level": 45
+        }
       ],
-      "questRequirements": ["Hunt for the Relic"]
+      "questRequirements": [
+        "Hunt for the Relic"
+      ]
     },
     "rewards": {
-      "items": ["Deep Relic Core"],
-      "experience": [{ "skill": "Magic", "xp": 5200 }]
+      "items": [
+        "Magic staff",
+        "Water rune",
+        "Death rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 5200
+        }
+      ]
     },
     "questSteps": [
       "Speak to the relic researcher at the coast.",
@@ -1363,8 +2422,17 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Fruit Basket"],
-      "experience": [{ "skill": "Thieving", "xp": 400 }]
+      "items": [
+        "Apple",
+        "Banana",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 400
+        }
+      ]
     },
     "questSteps": [
       "Talk to the orchard keeper.",
@@ -1385,11 +2453,25 @@
     "length": "Long",
     "series": "Northern Winds",
     "requirements": {
-      "skillRequirements": [{ "skill": "Firemaking", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Firemaking",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Warm Boots"],
-      "experience": [{ "skill": "Firemaking", "xp": 2100 }]
+      "items": [
+        "Climbing boots",
+        "Warm gloves",
+        "Logs"
+      ],
+      "experience": [
+        {
+          "skill": "Firemaking",
+          "xp": 2100
+        }
+      ]
     },
     "questSteps": [
       "Collect supply crates from the quartermaster.",
@@ -1410,11 +2492,25 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Magic", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Magic",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Runic Lens"],
-      "experience": [{ "skill": "Magic", "xp": 2600 }]
+      "items": [
+        "Glass orb",
+        "Air rune",
+        "Cosmic rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 2600
+        }
+      ]
     },
     "questSteps": [
       "Speak to the archivist about the missing lens.",
@@ -1435,11 +2531,25 @@
     "length": "Long",
     "series": "Warfront",
     "requirements": {
-      "skillRequirements": [{ "skill": "Attack", "level": 55 }]
+      "skillRequirements": [
+        {
+          "skill": "Attack",
+          "level": 55
+        }
+      ]
     },
     "rewards": {
-      "items": ["Arena Sigil"],
-      "experience": [{ "skill": "Attack", "xp": 6000 }]
+      "items": [
+        "Rune sword",
+        "Strength potion(3)",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Attack",
+          "xp": 6000
+        }
+      ]
     },
     "questSteps": [
       "Register with the arena master.",
@@ -1460,7 +2570,11 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["Helper's Badge"],
+      "items": [
+        "Coins",
+        "Bread",
+        "Bucket"
+      ],
       "experience": []
     },
     "questSteps": [
@@ -1482,11 +2596,25 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Mining", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Mining",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Smelter's Permit"],
-      "experience": [{ "skill": "Mining", "xp": 2200 }]
+      "items": [
+        "Steel bar",
+        "Coal",
+        "Iron ore"
+      ],
+      "experience": [
+        {
+          "skill": "Mining",
+          "xp": 2200
+        }
+      ]
     },
     "questSteps": [
       "Talk to the inspector at the gate.",
@@ -1507,8 +2635,16 @@
     "length": "Medium",
     "series": "Relic Saga",
     "rewards": {
-      "items": ["Traveler's Compass"],
-      "experience": [{ "skill": "Agility", "xp": 1400 }]
+      "items": [
+        "Compass",
+        "Ring of dueling(8)"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 1400
+        }
+      ]
     },
     "questSteps": [
       "Acquire the compass from the collector.",
@@ -1529,11 +2665,25 @@
     "length": "Medium",
     "series": "culinaromancer",
     "requirements": {
-      "skillRequirements": [{ "skill": "Cooking", "level": 50 }]
+      "skillRequirements": [
+        {
+          "skill": "Cooking",
+          "level": 50
+        }
+      ]
     },
     "rewards": {
-      "items": ["Chef's Hat (Trimmed)"],
-      "experience": [{ "skill": "Cooking", "xp": 4000 }]
+      "items": [
+        "Chef's hat",
+        "Chocolate cake",
+        "Cooking apple"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 4000
+        }
+      ]
     },
     "questSteps": [
       "Register for the cook-off.",
@@ -1554,11 +2704,25 @@
     "length": "Long",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Runecraft", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Runecraft",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Stabilized Rune"],
-      "experience": [{ "skill": "Runecraft", "xp": 4500 }]
+      "items": [
+        "Pure essence",
+        "Law rune",
+        "Cosmic rune"
+      ],
+      "experience": [
+        {
+          "skill": "Runecraft",
+          "xp": 4500
+        }
+      ]
     },
     "questSteps": [
       "Meet the runecrafter at the altar site.",
@@ -1579,11 +2743,24 @@
     "length": "Short",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Mining", "level": 25 }]
+      "skillRequirements": [
+        {
+          "skill": "Mining",
+          "level": 25
+        }
+      ]
     },
     "rewards": {
-      "items": ["Stone Voucher"],
-      "experience": [{ "skill": "Mining", "xp": 900 }]
+      "items": [
+        "Granite",
+        "Iron pickaxe"
+      ],
+      "experience": [
+        {
+          "skill": "Mining",
+          "xp": 900
+        }
+      ]
     },
     "questSteps": [
       "Speak to the quarry foreman.",
@@ -1604,8 +2781,17 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["Fog Lantern"],
-      "experience": [{ "skill": "Firemaking", "xp": 1500 }]
+      "items": [
+        "Bullseye lantern",
+        "Oil lamp",
+        "Logs"
+      ],
+      "experience": [
+        {
+          "skill": "Firemaking",
+          "xp": 1500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the lighthouse keeper.",
@@ -1626,12 +2812,28 @@
     "length": "Long",
     "series": "Desert Journeys",
     "requirements": {
-      "skillRequirements": [{ "skill": "Thieving", "level": 50 }],
-      "questRequirements": ["The Lost Caravan"]
+      "skillRequirements": [
+        {
+          "skill": "Thieving",
+          "level": 50
+        }
+      ],
+      "questRequirements": [
+        "The Lost Caravan"
+      ]
     },
     "rewards": {
-      "items": ["Trader's Seal"],
-      "experience": [{ "skill": "Thieving", "xp": 6000 }]
+      "items": [
+        "Coins",
+        "Gold bar",
+        "Lockpick"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 6000
+        }
+      ]
     },
     "questSteps": [
       "Meet the historian at the caravan camp.",
@@ -1652,8 +2854,17 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Apprentice Toolkit"],
-      "experience": [{ "skill": "Fletching", "xp": 750 }]
+      "items": [
+        "Shortbow",
+        "Arrow shaft",
+        "Feather"
+      ],
+      "experience": [
+        {
+          "skill": "Fletching",
+          "xp": 750
+        }
+      ]
     },
     "questSteps": [
       "Speak to the fletching instructor.",
@@ -1674,11 +2885,25 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Agility", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Agility",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Warden's Key"],
-      "experience": [{ "skill": "Agility", "xp": 2200 }]
+      "items": [
+        "Key",
+        "Rope",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 2200
+        }
+      ]
     },
     "questSteps": [
       "Talk to the prison warden.",
@@ -1699,8 +2924,16 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Monastery Blessing"],
-      "experience": [{ "skill": "Prayer", "xp": 800 }]
+      "items": [
+        "Holy symbol",
+        "Prayer potion(3)"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 800
+        }
+      ]
     },
     "questSteps": [
       "Speak to the monk at the monastery.",
@@ -1721,11 +2954,25 @@
     "length": "Long",
     "series": "Morytania Arc",
     "requirements": {
-      "skillRequirements": [{ "skill": "Prayer", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Prayer",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Manor Sigil"],
-      "experience": [{ "skill": "Prayer", "xp": 4200 }]
+      "items": [
+        "Ghostspeak amulet",
+        "Bones",
+        "Prayer potion(4)"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 4200
+        }
+      ]
     },
     "questSteps": [
       "Speak to the caretaker about strange noises.",
@@ -1746,11 +2993,25 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Herblore", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Herblore",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Healer's Satchel"],
-      "experience": [{ "skill": "Herblore", "xp": 2800 }]
+      "items": [
+        "Guam potion(3)",
+        "Marrentill",
+        "Vial"
+      ],
+      "experience": [
+        {
+          "skill": "Herblore",
+          "xp": 2800
+        }
+      ]
     },
     "questSteps": [
       "Speak to the healer in the clinic.",
@@ -1771,8 +3032,17 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Stone Chisel"],
-      "experience": [{ "skill": "Crafting", "xp": 500 }]
+      "items": [
+        "Chisel",
+        "Plank",
+        "Hammer"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 500
+        }
+      ]
     },
     "questSteps": [
       "Talk to the mason at the statue.",
@@ -1793,12 +3063,28 @@
     "length": "Long",
     "series": "Gadgeteer Tales",
     "requirements": {
-      "skillRequirements": [{ "skill": "Thieving", "level": 55 }],
-      "questRequirements": ["The Hidden Workshop"]
+      "skillRequirements": [
+        {
+          "skill": "Thieving",
+          "level": 55
+        }
+      ],
+      "questRequirements": [
+        "The Hidden Workshop"
+      ]
     },
     "rewards": {
-      "items": ["Clockwork Core"],
-      "experience": [{ "skill": "Thieving", "xp": 6500 }]
+      "items": [
+        "Clockwork",
+        "Steel bar",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 6500
+        }
+      ]
     },
     "questSteps": [
       "Meet the engineer at the workshop.",
@@ -1819,8 +3105,17 @@
     "length": "Medium",
     "series": null,
     "rewards": {
-      "items": ["Festival Token"],
-      "experience": [{ "skill": "Cooking", "xp": 900 }]
+      "items": [
+        "Apple pie",
+        "Cake",
+        "Wine"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 900
+        }
+      ]
     },
     "questSteps": [
       "Talk to the festival organizer.",
@@ -1842,14 +3137,31 @@
     "series": "Desert Journeys",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Agility", "level": 55 },
-        { "skill": "Thieving", "level": 45 }
+        {
+          "skill": "Agility",
+          "level": 55
+        },
+        {
+          "skill": "Thieving",
+          "level": 45
+        }
       ],
-      "questRequirements": ["The Ancient Ledger"]
+      "questRequirements": [
+        "The Ancient Ledger"
+      ]
     },
     "rewards": {
-      "items": ["Sand Vault Relic"],
-      "experience": [{ "skill": "Agility", "xp": 7000 }]
+      "items": [
+        "Gold bar",
+        "Diamond",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 7000
+        }
+      ]
     },
     "questSteps": [
       "Consult the desert historian for clues.",
@@ -1870,8 +3182,16 @@
     "length": "Long",
     "series": "Warfront",
     "rewards": {
-      "items": ["Outpost Report"],
-      "experience": [{ "skill": "Defence", "xp": 1800 }]
+      "items": [
+        "Steel kiteshield",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Defence",
+          "xp": 1800
+        }
+      ]
     },
     "questSteps": [
       "Report to the strategist.",
@@ -1893,14 +3213,32 @@
     "series": "Relic Saga",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Magic", "level": 55 },
-        { "skill": "Agility", "level": 50 }
+        {
+          "skill": "Magic",
+          "level": 55
+        },
+        {
+          "skill": "Agility",
+          "level": 50
+        }
       ],
-      "questRequirements": ["Relic of the Deep", "The Curious Compass"]
+      "questRequirements": [
+        "Relic of the Deep",
+        "The Curious Compass"
+      ]
     },
     "rewards": {
-      "items": ["Confluence Relic"],
-      "experience": [{ "skill": "Magic", "xp": 9000 }]
+      "items": [
+        "Ancient staff",
+        "Blood rune",
+        "Death rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 9000
+        }
+      ]
     },
     "questSteps": [
       "Meet the relic council at the observatory.",
@@ -1921,8 +3259,16 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Fishing Net Upgrade"],
-      "experience": [{ "skill": "Fishing", "xp": 650 }]
+      "items": [
+        "Fishing net",
+        "Raw lobster"
+      ],
+      "experience": [
+        {
+          "skill": "Fishing",
+          "xp": 650
+        }
+      ]
     },
     "questSteps": [
       "Speak to the fisherman near the riverbank.",
@@ -1943,11 +3289,24 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Magic", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Magic",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Archive Access"],
-      "experience": [{ "skill": "Magic", "xp": 2400 }]
+      "items": [
+        "Law rune",
+        "Cosmic rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 2400
+        }
+      ]
     },
     "questSteps": [
       "Talk to the archivist about the sealed door.",
@@ -1969,14 +3328,31 @@
     "series": null,
     "requirements": {
       "skillRequirements": [
-        { "skill": "Thieving", "level": 45 },
-        { "skill": "Agility", "level": 40 }
+        {
+          "skill": "Thieving",
+          "level": 45
+        },
+        {
+          "skill": "Agility",
+          "level": 40
+        }
       ],
-      "questRequirements": ["Harbor Troubles"]
+      "questRequirements": [
+        "Harbor Troubles"
+      ]
     },
     "rewards": {
-      "items": ["Smuggler's Ledger"],
-      "experience": [{ "skill": "Thieving", "xp": 5200 }]
+      "items": [
+        "Coins",
+        "Lockpick",
+        "Black cape"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 5200
+        }
+      ]
     },
     "questSteps": [
       "Speak to the harbor officer about suspicious activity.",
@@ -1997,11 +3373,24 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Construction", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Construction",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Orchard Permit"],
-      "experience": [{ "skill": "Construction", "xp": 2100 }]
+      "items": [
+        "Iron axe",
+        "Plank"
+      ],
+      "experience": [
+        {
+          "skill": "Construction",
+          "xp": 2100
+        }
+      ]
     },
     "questSteps": [
       "Speak to the orchard keeper about the damage.",
@@ -2022,11 +3411,24 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Magic", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Magic",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Ridge Rune Tablet"],
-      "experience": [{ "skill": "Magic", "xp": 2800 }]
+      "items": [
+        "Air rune",
+        "Mind rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 2800
+        }
+      ]
     },
     "questSteps": [
       "Meet the scholar at the ridge camp.",
@@ -2048,14 +3450,30 @@
     "series": "Desert Journeys",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Agility", "level": 50 },
-        { "skill": "Crafting", "level": 45 }
+        {
+          "skill": "Agility",
+          "level": 50
+        },
+        {
+          "skill": "Crafting",
+          "level": 45
+        }
       ],
-      "questRequirements": ["Vault of Sand"]
+      "questRequirements": [
+        "Vault of Sand"
+      ]
     },
     "rewards": {
-      "items": ["Dune Gearpiece"],
-      "experience": [{ "skill": "Agility", "xp": 7500 }]
+      "items": [
+        "Gold bar",
+        "Steel gear"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 7500
+        }
+      ]
     },
     "questSteps": [
       "Speak to the desert engineer near the buried site.",
@@ -2076,8 +3494,16 @@
     "length": "Short",
     "series": null,
     "rewards": {
-      "items": ["Mining Supplies"],
-      "experience": [{ "skill": "Mining", "xp": 700 }]
+      "items": [
+        "Iron ore",
+        "Bronze pickaxe"
+      ],
+      "experience": [
+        {
+          "skill": "Mining",
+          "xp": 700
+        }
+      ]
     },
     "questSteps": [
       "Talk to the miner at the collapsed tunnel.",
@@ -2098,11 +3524,24 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Firemaking", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Firemaking",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Lantern Keeper Token"],
-      "experience": [{ "skill": "Firemaking", "xp": 1800 }]
+      "items": [
+        "Lantern",
+        "Logs"
+      ],
+      "experience": [
+        {
+          "skill": "Firemaking",
+          "xp": 1800
+        }
+      ]
     },
     "questSteps": [
       "Speak to the road warden.",
@@ -2123,12 +3562,27 @@
     "length": "Long",
     "series": "Ranger Path",
     "requirements": {
-      "skillRequirements": [{ "skill": "Ranged", "level": 55 }],
-      "questRequirements": ["The Hunter's Oath"]
+      "skillRequirements": [
+        {
+          "skill": "Ranged",
+          "level": 55
+        }
+      ],
+      "questRequirements": [
+        "The Hunter's Oath"
+      ]
     },
     "rewards": {
-      "items": ["Ranger Oath Scroll"],
-      "experience": [{ "skill": "Ranged", "xp": 6500 }]
+      "items": [
+        "Magic longbow",
+        "Rune arrow"
+      ],
+      "experience": [
+        {
+          "skill": "Ranged",
+          "xp": 6500
+        }
+      ]
     },
     "questSteps": [
       "Meet the ranger captain at the outpost.",
@@ -2149,11 +3603,24 @@
     "length": "Medium",
     "series": "Gadgeteer Tales",
     "requirements": {
-      "skillRequirements": [{ "skill": "Crafting", "level": 40 }]
+      "skillRequirements": [
+        {
+          "skill": "Crafting",
+          "level": 40
+        }
+      ]
     },
     "rewards": {
-      "items": ["Clockwork Spares"],
-      "experience": [{ "skill": "Crafting", "xp": 2600 }]
+      "items": [
+        "Clockwork",
+        "Steel bar"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 2600
+        }
+      ]
     },
     "questSteps": [
       "Speak to the gate engineer.",
@@ -2174,11 +3641,24 @@
     "length": "Medium",
     "series": "Relic Saga",
     "requirements": {
-      "skillRequirements": [{ "skill": "Thieving", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Thieving",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Relic Receipt"],
-      "experience": [{ "skill": "Thieving", "xp": 2400 }]
+      "items": [
+        "Gold ring",
+        "Emerald"
+      ],
+      "experience": [
+        {
+          "skill": "Thieving",
+          "xp": 2400
+        }
+      ]
     },
     "questSteps": [
       "Meet the collector in the market.",
@@ -2199,8 +3679,16 @@
     "length": "Short",
     "series": "culinaromancer",
     "rewards": {
-      "items": ["Baker's Token"],
-      "experience": [{ "skill": "Cooking", "xp": 800 }]
+      "items": [
+        "Cake",
+        "Chocolate dust"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 800
+        }
+      ]
     },
     "questSteps": [
       "Speak to the baker in town.",
@@ -2221,11 +3709,24 @@
     "length": "Long",
     "series": "Morytania Arc",
     "requirements": {
-      "skillRequirements": [{ "skill": "Prayer", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Prayer",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Cleansed Charm"],
-      "experience": [{ "skill": "Prayer", "xp": 5200 }]
+      "items": [
+        "Prayer potion(4)",
+        "Bones"
+      ],
+      "experience": [
+        {
+          "skill": "Prayer",
+          "xp": 5200
+        }
+      ]
     },
     "questSteps": [
       "Speak to the druid near the marsh.",
@@ -2246,11 +3747,24 @@
     "length": "Medium",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Smithing", "level": 35 }]
+      "skillRequirements": [
+        {
+          "skill": "Smithing",
+          "level": 35
+        }
+      ]
     },
     "rewards": {
-      "items": ["Contract Seal"],
-      "experience": [{ "skill": "Smithing", "xp": 2200 }]
+      "items": [
+        "Steel bar",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Smithing",
+          "xp": 2200
+        }
+      ]
     },
     "questSteps": [
       "Speak to the smith in the workshop.",
@@ -2271,11 +3785,24 @@
     "length": "Long",
     "series": null,
     "requirements": {
-      "skillRequirements": [{ "skill": "Defence", "level": 30 }]
+      "skillRequirements": [
+        {
+          "skill": "Defence",
+          "level": 30
+        }
+      ]
     },
     "rewards": {
-      "items": ["Orchard Crest"],
-      "experience": [{ "skill": "Defence", "xp": 2000 }]
+      "items": [
+        "Steel shield",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Defence",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Meet the orchard keeper at sunset.",
@@ -2297,13 +3824,27 @@
     "series": "Desert Journeys",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Crafting", "level": 50 },
-        { "skill": "Agility", "level": 45 }
+        {
+          "skill": "Crafting",
+          "level": 50
+        },
+        {
+          "skill": "Agility",
+          "level": 45
+        }
       ]
     },
     "rewards": {
-      "items": ["Star Chart"],
-      "experience": [{ "skill": "Crafting", "xp": 6000 }]
+      "items": [
+        "Glass orb",
+        "Gold bar"
+      ],
+      "experience": [
+        {
+          "skill": "Crafting",
+          "xp": 6000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the astronomer near the ruins.",
@@ -2324,8 +3865,16 @@
     "length": "Short",
     "series": "Gnome Tech",
     "rewards": {
-      "items": ["Relay Pin"],
-      "experience": [{ "skill": "Agility", "xp": 700 }]
+      "items": [
+        "Mint cake",
+        "Gnome scarf"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 700
+        }
+      ]
     },
     "questSteps": [
       "Speak to the gnome messenger.",
@@ -2346,11 +3895,24 @@
     "length": "Medium",
     "series": "Mystic Archives",
     "requirements": {
-      "skillRequirements": [{ "skill": "Magic", "level": 45 }]
+      "skillRequirements": [
+        {
+          "skill": "Magic",
+          "level": 45
+        }
+      ]
     },
     "rewards": {
-      "items": ["Archive Seal"],
-      "experience": [{ "skill": "Magic", "xp": 3000 }]
+      "items": [
+        "Law rune",
+        "Soul rune"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 3000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the archivist about the trial.",
@@ -2371,8 +3933,16 @@
     "length": "Short",
     "series": "Relic Saga",
     "rewards": {
-      "items": ["Museum Favor"],
-      "experience": [{ "skill": "Agility", "xp": 900 }]
+      "items": [
+        "Coins",
+        "Ring of dueling(8)"
+      ],
+      "experience": [
+        {
+          "skill": "Agility",
+          "xp": 900
+        }
+      ]
     },
     "questSteps": [
       "Pick up the relic crate from the curator.",
@@ -2393,8 +3963,16 @@
     "length": "Medium",
     "series": "Warfront",
     "rewards": {
-      "items": ["Orders Satchel"],
-      "experience": [{ "skill": "Defence", "xp": 2000 }]
+      "items": [
+        "Steel platebody",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Defence",
+          "xp": 2000
+        }
+      ]
     },
     "questSteps": [
       "Report to the war strategist.",
@@ -2415,11 +3993,24 @@
     "length": "Long",
     "series": "culinaromancer",
     "requirements": {
-      "skillRequirements": [{ "skill": "Cooking", "level": 60 }]
+      "skillRequirements": [
+        {
+          "skill": "Cooking",
+          "level": 60
+        }
+      ]
     },
     "rewards": {
-      "items": ["Cursed Recipe Page"],
-      "experience": [{ "skill": "Cooking", "xp": 5000 }]
+      "items": [
+        "Cooked shark",
+        "Cooking gauntlets"
+      ],
+      "experience": [
+        {
+          "skill": "Cooking",
+          "xp": 5000
+        }
+      ]
     },
     "questSteps": [
       "Speak to the worried cook in Lumbridge.",
@@ -2441,14 +4032,33 @@
     "series": "Relic Saga",
     "requirements": {
       "skillRequirements": [
-        { "skill": "Magic", "level": 70 },
-        { "skill": "Agility", "level": 60 }
+        {
+          "skill": "Magic",
+          "level": 70
+        },
+        {
+          "skill": "Agility",
+          "level": 60
+        }
       ],
-      "questRequirements": ["The Relic Confluence", "The Ancient Gate"]
+      "questRequirements": [
+        "The Relic Confluence",
+        "The Ancient Gate"
+      ]
     },
     "rewards": {
-      "items": ["Convergence Relic", "Access to the Convergence Chamber"],
-      "experience": [{ "skill": "Magic", "xp": 20000 }]
+      "items": [
+        "Ancient staff",
+        "Blood rune",
+        "Death rune",
+        "Coins"
+      ],
+      "experience": [
+        {
+          "skill": "Magic",
+          "xp": 20000
+        }
+      ]
     },
     "questSteps": [
       "Meet the relic council at the observatory.",
